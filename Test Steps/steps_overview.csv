@@ -1,0 +1,94 @@
+Flow ID,Name,Description,Test Steps,Flow Priority
+1,Complete Purchase with Custom Storage Color Option,"Navigate to home, select a storage color option, increase quantity, buy the item, fill shipping info, and verify thank you page.","Step 1: Navigate to /
+Step 2: Click on button addToCart
+Step 3: Click on label storageColorOption (512Gb)
+Step 4: Click on label storageColorOption (white)
+Step 5: Click on label storageColorOption (black)
+Step 6: Click on button increased
+Step 7: Click on button buy
+Step 8: Click on link goToCart
+Step 9: Fill in shipping information and proceed to payment
+	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Click on input email
+	- Step 3: Enter input value in input email
+	- Step 4: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 5: Click on input email
+	- Step 6: Enter input value in button continueToShipping
+	- Step 7: Click on input shippingAddressFirstName
+	- Step 8: Enter input value in input shippingAddressFirstName
+	- Step 9: Click on input shippingAddressLastName
+	- Step 10: Enter input value in input shippingAddressLastName
+	- Step 11: Click on input shippingAddressLine1
+	- Step 12: Enter input value in input shippingAddressLine1
+	- Step 13: Click on input shippingAddressZip
+	- Step 14: Enter input value in input shippingAddressZip
+	- Step 15: Click on input shippingAddressCity
+	- Step 16: Enter input value in input shippingAddressCity
+	- Step 17: Click on input shippingAddressState
+	- Step 18: Enter input value in input shippingAddressState
+	- Step 19: Click on input shippingAddressPhone -> Navigate to page 'checkout/payment'
+	- Step 20: Click on button continueToShipping
+Step 10: Take full page screenshot as checkpoint
+",High
+2,Complete Purchase from Category with Cart Access,"Navigate to home, select a category, add a product to the cart, fill in shipping info, and verify the thank you page.","Step 1: Navigate to /
+Step 2: Select category, add product to cart, and complete purchase
+	- Step 1: Click on link categoryApple (categoryApple) -> Navigate to page 'category/*'
+	- Step 2: Click on button addToCart (addToCart)
+	- Step 3: Click on label colorStorageOption (256Gb)
+	- Step 4: Click on label colorStorageOption (yellow)
+	- Step 5: Click on button buy
+Step 3: Click on span object
+Step 4: Fill in shipping information and proceed to payment
+	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Click on input email
+	- Step 3: Enter input value in input email
+	- Step 4: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 5: Click on input email
+	- Step 6: Enter input value in button continueToShipping
+	- Step 7: Click on input shippingAddressFirstName
+	- Step 8: Enter input value in input shippingAddressFirstName
+	- Step 9: Click on input shippingAddressLastName
+	- Step 10: Enter input value in input shippingAddressLastName
+	- Step 11: Click on input shippingAddressLine1
+	- Step 12: Enter input value in input shippingAddressLine1
+	- Step 13: Click on input shippingAddressZip
+	- Step 14: Enter input value in input shippingAddressZip
+	- Step 15: Click on input shippingAddressCity
+	- Step 16: Enter input value in input shippingAddressCity
+	- Step 17: Click on input shippingAddressState
+	- Step 18: Enter input value in input shippingAddressState
+	- Step 19: Click on input shippingAddressPhone -> Navigate to page 'checkout/payment'
+	- Step 20: Click on button continueToShipping
+Step 5: Take full page screenshot as checkpoint
+",High
+3,Complete Purchase from Category with Cart Link,"Navigate to home, select a category, add a product to the cart, access the cart, fill shipping info, and verify the thank you page.","Step 1: Navigate to /
+Step 2: Select category, add product to cart, and complete purchase
+	- Step 1: Click on link categoryApple (categoryApple) -> Navigate to page 'category/*'
+	- Step 2: Click on button addToCart (addToCart)
+	- Step 3: Click on label colorStorageOption (256Gb)
+	- Step 4: Click on label colorStorageOption (yellow)
+	- Step 5: Click on button buy
+Step 3: Click on link cart
+Step 4: Fill in shipping information and proceed to payment
+	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Click on input email
+	- Step 3: Enter input value in input email
+	- Step 4: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 5: Click on input email
+	- Step 6: Enter input value in button continueToShipping
+	- Step 7: Click on input shippingAddressFirstName
+	- Step 8: Enter input value in input shippingAddressFirstName
+	- Step 9: Click on input shippingAddressLastName
+	- Step 10: Enter input value in input shippingAddressLastName
+	- Step 11: Click on input shippingAddressLine1
+	- Step 12: Enter input value in input shippingAddressLine1
+	- Step 13: Click on input shippingAddressZip
+	- Step 14: Enter input value in input shippingAddressZip
+	- Step 15: Click on input shippingAddressCity
+	- Step 16: Enter input value in input shippingAddressCity
+	- Step 17: Click on input shippingAddressState
+	- Step 18: Enter input value in input shippingAddressState
+	- Step 19: Click on input shippingAddressPhone -> Navigate to page 'checkout/payment'
+	- Step 20: Click on button continueToShipping
+Step 5: Take full page screenshot as checkpoint
+",High
