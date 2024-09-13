@@ -1,0 +1,33 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on button addToCart",
+        "step 3: Click on label storageColorOption (512Gb)",
+        "step 4: Click on label storageColorOption (white)",
+        "step 5: Click on label storageColorOption (black)",
+        "step 6: Click on button increased",
+        "step 7: Click on button buy",
+        "step 8: Click on link goToCart -> Navigate to page '/cart'",
+        "step 9: Click on button proceedToCheckout -> Navigate to page 'checkout/info'",
+        "step 10: Click on input email",
+        "step 11: Enter input value in input email",
+        "step 12: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'",
+        "step 13: Click on input email",
+        "step 14: Enter input value in button continueToShipping",
+        "step 15: Click on input shippingAddressFirstName",
+        "step 16: Enter input value in input shippingAddressFirstName",
+        "step 17: Click on input shippingAddressLastName",
+        "step 18: Enter input value in input shippingAddressLastName",
+        "step 19: Click on input shippingAddressLine1",
+        "step 20: Enter input value in input shippingAddressLine1",
+        "step 21: Click on input shippingAddressZip",
+        "step 22: Enter input value in input shippingAddressZip",
+        "step 23: Click on input shippingAddressCity",
+        "step 24: Enter input value in input shippingAddressCity",
+        "step 25: Click on input shippingAddressState",
+        "step 26: Enter input value in input shippingAddressState",
+        "step 27: Click on input shippingAddressPhone -> Navigate to page 'checkout/payment'",
+        "step 28: Click on button continueToShipping -> Navigate to page 'thank-you/*'",
+        "step 29: Take full page screenshot as checkpoint"
+    ]
+}
