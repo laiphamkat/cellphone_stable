@@ -3,9 +3,8 @@ package katalon.common
 import com.kms.katalon.core.testdata.TestData as TestData
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import internal.GlobalVariable
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 public class proceedToCheckoutAndInputShippingDetails {
     
@@ -29,8 +28,7 @@ public class proceedToCheckoutAndInputShippingDetails {
         
         "Step 5: Click on button inputShippingDetails (email)"
         
-        // Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails"
-        WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails', ['button_inputShippingDetails_internalLabel': data['button_inputShippingDetails_internalLabel']]))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails'))
         
         "Step 6: Enter input value in button inputShippingDetails (continueToShipping)"
         
@@ -38,63 +36,51 @@ public class proceedToCheckoutAndInputShippingDetails {
         
         "Step 7: Click on button inputShippingDetails (shippingAddressFirstName)"
         
-        // Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails"
-        WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails', ['button_inputShippingDetails_internalLabel': data['button_inputShippingDetails_internalLabel_1']]))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails'))
         
         "Step 8: Enter input value in button inputShippingDetails (shippingAddressFirstName)"
         
-        // Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails"
-        WebUI.setText(findTestObject('AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails', ['button_inputShippingDetails_internalLabel': data['button_inputShippingDetails_internalLabel_2']]), data['button_inputShippingDetails'])
+        WebUI.setText(findTestObject('AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails'), data['button_inputShippingDetails'])
         
         "Step 9: Click on button inputShippingDetails (shippingAddressLastName)"
         
-        // Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails"
-        WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails', ['button_inputShippingDetails_internalLabel': data['button_inputShippingDetails_internalLabel_3']]))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails'))
         
         "Step 10: Enter input value in button inputShippingDetails (shippingAddressLastName)"
         
-        // Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails"
-        WebUI.setText(findTestObject('AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails', ['button_inputShippingDetails_internalLabel': data['button_inputShippingDetails_internalLabel_4']]), data['button_inputShippingDetails'])
+        WebUI.setText(findTestObject('AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails'), data['button_inputShippingDetails'])
         
         "Step 11: Click on button inputShippingDetails (shippingAddressLine1)"
         
-        // Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails"
-        WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails', ['button_inputShippingDetails_internalLabel': data['button_inputShippingDetails_internalLabel_5']]))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails'))
         
         "Step 12: Enter input value in button inputShippingDetails (shippingAddressLine1)"
         
-        // Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails"
-        WebUI.setText(findTestObject('AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails', ['button_inputShippingDetails_internalLabel': data['button_inputShippingDetails_internalLabel_6']]), data['button_inputShippingDetails'])
+        WebUI.setText(findTestObject('AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails'), data['button_inputShippingDetails'])
         
         "Step 13: Click on button inputShippingDetails (shippingAddressZip)"
         
-        // Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails"
-        WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails', ['button_inputShippingDetails_internalLabel': data['button_inputShippingDetails_internalLabel_7']]))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails'))
         
         "Step 14: Enter input value in button inputShippingDetails (shippingAddressZip)"
         
-        // Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails"
-        WebUI.setText(findTestObject('AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails', ['button_inputShippingDetails_internalLabel': data['button_inputShippingDetails_internalLabel_8']]), data['button_inputShippingDetails'])
+        WebUI.setText(findTestObject('AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails'), data['button_inputShippingDetails'])
         
         "Step 15: Click on button inputShippingDetails (shippingAddressCity)"
         
-        // Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails"
-        WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails', ['button_inputShippingDetails_internalLabel': data['button_inputShippingDetails_internalLabel_9']]))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails'))
         
         "Step 16: Enter input value in button inputShippingDetails (shippingAddressCity)"
         
-        // Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails"
-        WebUI.setText(findTestObject('AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails', ['button_inputShippingDetails_internalLabel': data['button_inputShippingDetails_internalLabel_10']]), data['button_inputShippingDetails'])
+        WebUI.setText(findTestObject('AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails'), data['button_inputShippingDetails'])
         
         "Step 17: Click on button inputShippingDetails (shippingAddressState)"
         
-        // Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails"
-        WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails', ['button_inputShippingDetails_internalLabel': data['button_inputShippingDetails_internalLabel_11']]))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails'))
         
         "Step 18: Enter input value in button inputShippingDetails (shippingAddressState)"
         
-        // Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails"
-        WebUI.setText(findTestObject('AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails', ['button_inputShippingDetails_internalLabel': data['button_inputShippingDetails_internalLabel_12']]), data['button_inputShippingDetails'])
+        WebUI.setText(findTestObject('AI-Generated/Dynamic Objects/Page_checkout_shipping_address/button_inputShippingDetails'), data['button_inputShippingDetails'])
         
         "Step 19: Click on input shippingAddressPhone -> Navigate to page 'checkout/payment'"
         
@@ -115,19 +101,6 @@ public class proceedToCheckoutAndInputShippingDetails {
         data['button_inputShippingDetails_4'] = testData.getValue('button_inputShippingDetails_4', rowIndex)
         data['button_inputShippingDetails_5'] = testData.getValue('button_inputShippingDetails_5', rowIndex)
         data['button_inputShippingDetails_6'] = testData.getValue('button_inputShippingDetails_6', rowIndex)
-        data['button_inputShippingDetails_internalLabel'] = testData.getValue('button_inputShippingDetails_internalLabel', rowIndex)
-        data['button_inputShippingDetails_internalLabel_1'] = testData.getValue('button_inputShippingDetails_internalLabel_1', rowIndex)
-        data['button_inputShippingDetails_internalLabel_10'] = testData.getValue('button_inputShippingDetails_internalLabel_10', rowIndex)
-        data['button_inputShippingDetails_internalLabel_11'] = testData.getValue('button_inputShippingDetails_internalLabel_11', rowIndex)
-        data['button_inputShippingDetails_internalLabel_12'] = testData.getValue('button_inputShippingDetails_internalLabel_12', rowIndex)
-        data['button_inputShippingDetails_internalLabel_2'] = testData.getValue('button_inputShippingDetails_internalLabel_2', rowIndex)
-        data['button_inputShippingDetails_internalLabel_3'] = testData.getValue('button_inputShippingDetails_internalLabel_3', rowIndex)
-        data['button_inputShippingDetails_internalLabel_4'] = testData.getValue('button_inputShippingDetails_internalLabel_4', rowIndex)
-        data['button_inputShippingDetails_internalLabel_5'] = testData.getValue('button_inputShippingDetails_internalLabel_5', rowIndex)
-        data['button_inputShippingDetails_internalLabel_6'] = testData.getValue('button_inputShippingDetails_internalLabel_6', rowIndex)
-        data['button_inputShippingDetails_internalLabel_7'] = testData.getValue('button_inputShippingDetails_internalLabel_7', rowIndex)
-        data['button_inputShippingDetails_internalLabel_8'] = testData.getValue('button_inputShippingDetails_internalLabel_8', rowIndex)
-        data['button_inputShippingDetails_internalLabel_9'] = testData.getValue('button_inputShippingDetails_internalLabel_9', rowIndex)
         data['input_email'] = testData.getValue('input_email', rowIndex)
         execute_functional_method(data)
     }
@@ -141,19 +114,6 @@ public class proceedToCheckoutAndInputShippingDetails {
         data['button_inputShippingDetails_4'] = 'default_data'
         data['button_inputShippingDetails_5'] = 'default_data'
         data['button_inputShippingDetails_6'] = 'default_data'
-        data['button_inputShippingDetails_internalLabel'] = 'default_data'
-        data['button_inputShippingDetails_internalLabel_1'] = 'default_data'
-        data['button_inputShippingDetails_internalLabel_10'] = 'default_data'
-        data['button_inputShippingDetails_internalLabel_11'] = 'default_data'
-        data['button_inputShippingDetails_internalLabel_12'] = 'default_data'
-        data['button_inputShippingDetails_internalLabel_2'] = 'default_data'
-        data['button_inputShippingDetails_internalLabel_3'] = 'default_data'
-        data['button_inputShippingDetails_internalLabel_4'] = 'default_data'
-        data['button_inputShippingDetails_internalLabel_5'] = 'default_data'
-        data['button_inputShippingDetails_internalLabel_6'] = 'default_data'
-        data['button_inputShippingDetails_internalLabel_7'] = 'default_data'
-        data['button_inputShippingDetails_internalLabel_8'] = 'default_data'
-        data['button_inputShippingDetails_internalLabel_9'] = 'default_data'
         data['input_email'] = 'default_data'
         execute_functional_method(data)
     }
