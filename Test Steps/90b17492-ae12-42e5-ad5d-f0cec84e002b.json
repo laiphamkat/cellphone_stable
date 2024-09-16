@@ -1,0 +1,19 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on button hotSamsungGalaxyS23",
+        "step 3: Click on label colorStorageOptions (tb)",
+        "step 4: Click on label colorStorageOptions (black)",
+        "step 5: Click on label colorStorageOptions (white)",
+        "step 6: Click on label colorStorageOptions (512Gb)",
+        "step 7: Click on label colorStorageOptions (256Gb)",
+        "step 8: Click on label colorStorageOptions (black)",
+        "step 9: Click on button increased",
+        "step 10: Click on button increased",
+        "step 11: Click on button buy",
+        "step 12: Click on link placeAnOrder",
+        "step 13: Fill in shipping information during checkout",
+        "step 14: Click on button continueToShipping -> Navigate to page 'thank-you/*'",
+        "step 15: Take full page screenshot as checkpoint"
+    ]
+}
