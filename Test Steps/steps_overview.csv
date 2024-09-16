@@ -1,0 +1,28 @@
+Flow ID,Name,Description,Test Steps,Flow Priority
+9,Complete Purchase for Samsung Galaxy Z Fold 5 and Verify Thank You Page,"Select Samsung Galaxy Z Fold 5, choose color, proceed to checkout, fill in shipping details, and verify the thank you page after purchase.","Step 1: Navigate to /
+Step 2: Click on link samsungGalaxyZfold5 -> Navigate to page 'product/*'
+Step 3: Click on label colorOption (tb)
+Step 4: Click on label colorOption (blue)
+Step 5: Click on button buy
+Step 6: Click on link placeAnOrder -> Navigate to page '/cart'
+Step 7: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+Step 8: Click on input email
+Step 9: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'
+Step 10: Click on input email
+Step 11: Enter input value in button continueToShipping
+Step 12: Click on input shippingAddressFirstName
+Step 13: Enter input value in input shippingAddressFirstName
+Step 14: Click on input shippingAddressLastName
+Step 15: Enter input value in input shippingAddressLastName
+Step 16: Click on input shippingAddressCity
+Step 17: Enter input value in input shippingAddressCity
+Step 18: Click on input shippingAddressState
+Step 19: Enter input value in input shippingAddressState
+Step 20: Click on input shippingAddressLine1
+Step 21: Enter input value in input shippingAddressLine1
+Step 22: Click on input shippingAddressPhone
+Step 23: Enter input value in input shippingAddressPhone
+Step 24: Click on input shippingAddressZip -> Navigate to page 'checkout/payment'
+Step 25: Click on button continueToShipping -> Navigate to page 'thank-you/*'
+Step 26: Take full page screenshot as checkpoint
+",Trivial
