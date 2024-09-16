@@ -6,7 +6,7 @@ import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-public class fillShippingInformationDuringCheckout {
+public class fillShippingInfoAndProceedToPayment {
     
     private static def execute_functional_method(Map data) {
         
@@ -50,41 +50,45 @@ public class fillShippingInformationDuringCheckout {
         
         WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressLastName'), data['input_shippingAddressLastName'])
         
-        "Step 11: Click on input shippingAddressCity"
-        
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressCity'))
-        
-        "Step 12: Enter input value in input shippingAddressCity"
-        
-        WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressCity'), data['input_shippingAddressCity'])
-        
-        "Step 13: Click on input shippingAddressState"
-        
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressState'))
-        
-        "Step 14: Enter input value in input shippingAddressState"
-        
-        WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressState'), data['input_shippingAddressState'])
-        
-        "Step 15: Click on input shippingAddressLine1"
+        "Step 11: Click on input shippingAddressLine1"
         
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressLine1'))
         
-        "Step 16: Enter input value in input shippingAddressLine1"
+        "Step 12: Enter input value in input shippingAddressLine1"
         
         WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressLine1'), data['input_shippingAddressLine1'])
         
-        "Step 17: Click on input shippingAddressPhone"
+        "Step 13: Click on input shippingAddressZip"
+        
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressZip'))
+        
+        "Step 14: Enter input value in input shippingAddressZip"
+        
+        WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressZip'), data['input_shippingAddressZip'])
+        
+        "Step 15: Click on input shippingAddressCity"
+        
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressCity'))
+        
+        "Step 16: Enter input value in input shippingAddressCity"
+        
+        WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressCity'), data['input_shippingAddressCity'])
+        
+        "Step 17: Click on input shippingAddressState"
+        
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressState'))
+        
+        "Step 18: Enter input value in input shippingAddressState"
+        
+        WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressState'), data['input_shippingAddressState'])
+        
+        "Step 19: Click on input shippingAddressPhone -> Navigate to page 'checkout/payment'"
         
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressPhone'))
         
-        "Step 18: Enter input value in input shippingAddressPhone"
+        "Step 20: Click on button continueToShipping"
         
-        WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressPhone'), data['input_shippingAddressPhone'])
-        
-        "Step 19: Click on input shippingAddressZip"
-        
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressZip'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_payment/button_continueToShipping'))
     }
     
     private static def execute_with_data_source(String datasource, int rowIndex) {
@@ -96,8 +100,8 @@ public class fillShippingInformationDuringCheckout {
         data['input_shippingAddressFirstName'] = testData.getValue('input_shippingAddressFirstName', rowIndex)
         data['input_shippingAddressLastName'] = testData.getValue('input_shippingAddressLastName', rowIndex)
         data['input_shippingAddressLine1'] = testData.getValue('input_shippingAddressLine1', rowIndex)
-        data['input_shippingAddressPhone'] = testData.getValue('input_shippingAddressPhone', rowIndex)
         data['input_shippingAddressState'] = testData.getValue('input_shippingAddressState', rowIndex)
+        data['input_shippingAddressZip'] = testData.getValue('input_shippingAddressZip', rowIndex)
         execute_functional_method(data)
     }
     
@@ -109,8 +113,8 @@ public class fillShippingInformationDuringCheckout {
         data['input_shippingAddressFirstName'] = 'default_data'
         data['input_shippingAddressLastName'] = 'default_data'
         data['input_shippingAddressLine1'] = 'default_data'
-        data['input_shippingAddressPhone'] = 'default_data'
         data['input_shippingAddressState'] = 'default_data'
+        data['input_shippingAddressZip'] = 'default_data'
         execute_functional_method(data)
     }
     
