@@ -1,0 +1,29 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link mobileDevice (googlePixel) -> Navigate to page 'category/*'",
+        "step 3: Click on button googlePixel7Pro",
+        "step 4: Click on link goToCart -> Navigate to page '/cart'",
+        "step 5: Click on button proceedToCheckout -> Navigate to page 'checkout/info'",
+        "step 6: Click on input email",
+        "step 7: Enter input value in input email",
+        "step 8: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'",
+        "step 9: Click on input shippingAddressFirstName",
+        "step 10: Enter input value in input shippingAddressFirstName",
+        "step 11: Click on input shippingAddressLastName",
+        "step 12: Enter input value in input shippingAddressLastName",
+        "step 13: Click on input shippingAddressCity",
+        "step 14: Enter input value in input shippingAddressCity",
+        "step 15: Click on input shippingAddressState",
+        "step 16: Enter input value in input shippingAddressState",
+        "step 17: Click on input shippingAddressLine1",
+        "step 18: Enter input value in input shippingAddressLine1",
+        "step 19: Click on input shippingAddressPhone",
+        "step 20: Enter input value in input shippingAddressPhone",
+        "step 21: Click on input shippingAddressZip",
+        "step 22: Enter input value in input shippingAddressZip",
+        "step 23: Click on button continueToPayment -> Navigate to page 'checkout/payment'",
+        "step 24: Click on button completeOrder -> Navigate to page 'thank-you/*'",
+        "step 25: Take full page screenshot as checkpoint"
+    ]
+}
