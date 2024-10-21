@@ -1,0 +1,13 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Hover over item object",
+        "step 3: Click on link mobileBrands (GooglePixel) -> Navigate to page 'category page#category/{*}'",
+        "step 4: Click on link GooglePixel7Pro -> Navigate to page 'product page#product/{*}'",
+        "step 5: Click on button purchaseOptions (Increased)",
+        "step 6: Click on button purchaseOptions (Buy)",
+        "step 7: Click on link PlaceAnOrder",
+        "step 8: Fill out user information and complete the checkout process",
+        "step 9: Take full page screenshot as checkpoint"
+    ]
+}
