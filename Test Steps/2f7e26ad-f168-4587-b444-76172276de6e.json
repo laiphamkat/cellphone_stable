@@ -1,0 +1,10 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Select mobile device and add it to the cart for purchase",
+        "step 3: Input email on checkout info page and continue to shipping",
+        "step 4: Fill in shipping address details and proceed to payment",
+        "step 5: Click on button CompleteOrder -> Navigate to page 'thank-you/*'",
+        "step 6: Take full page screenshot as checkpoint"
+    ]
+}
