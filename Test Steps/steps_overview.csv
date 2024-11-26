@@ -1,0 +1,79 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+1,Complete Purchase of Samsung Galaxy S23 Ultra Smartview Case,"Navigate to the home page, select the Samsung Galaxy S23 Ultra case, and complete the purchase by filling out shipping information and verifying the home page.","Step 1: Navigate to /
+Step 2: Hover over li object
+Step 3: Click on link brand (samsung) -> Navigate to page 'category/*'
+Step 4: Click on link samsungGalaxyS23UltraSmartviewCases -> Navigate to page 'product/*'
+Step 5: Click on button object
+Step 6: Click on button buy
+Step 7: Click on link goToCart -> Navigate to page '/cart'
+Step 8: Click on button increased
+Step 9: Fill out shipping information and complete order
+	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div object
+	- Step 3: Click on input email
+	- Step 4: Enter input value in input email
+	- Step 5: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 6: Hover over div object
+	- Step 7: Click on input shippingAddressFirstName
+	- Step 8: Hover over div object2
+	- Step 9: Enter input value in input shippingAddressFirstName
+	- Step 10: Click on input shippingAddressLastName
+	- Step 11: Hover over div object3
+	- Step 12: Enter input value in input shippingAddressLastName
+	- Step 13: Click on input shippingAddressAddressLine1
+	- Step 14: Hover over div object4
+	- Step 15: Enter input value in input shippingAddressAddressLine1
+	- Step 16: Click on input shippingAddressZip
+	- Step 17: Hover over div object5
+	- Step 18: Click on input shippingAddressCity
+	- Step 19: Enter input value in input shippingAddressZip
+	- Step 20: Hover over div object6
+	- Step 21: Enter input value in input shippingAddressCity
+	- Step 22: Click on input shippingAddressState
+	- Step 23: Hover over div object7
+	- Step 24: Enter input value in input shippingAddressState
+	- Step 25: Click on input shippingAddressPhone
+	- Step 26: Enter input value in input shippingAddressPhone
+	- Step 27: Click on button continueToPayment -> Navigate to page 'checkout/payment'
+	- Step 28: Click on button completeOrder
+Step 10: Take full page screenshot as checkpoint
+",High,NEW
+2,Complete Purchase of Dynamic Object Item,"Navigate to the home page, select a dynamic product, and complete the purchase process by filling out shipping information and verifying the home page.","Step 1: Navigate to /
+Step 2: Hover over li object2
+Step 3: Click on link brand (apple) -> Navigate to page 'category/*'
+Step 4: Click on button object
+Step 5: Click on label dynamicObject (object)
+Step 6: Click on label dynamicObject (object2)
+Step 7: Click on button buy
+Step 8: Click on link PlaceAnOrder
+Step 9: Fill out shipping information and complete order
+	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div object
+	- Step 3: Click on input email
+	- Step 4: Enter input value in input email
+	- Step 5: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 6: Hover over div object
+	- Step 7: Click on input shippingAddressFirstName
+	- Step 8: Hover over div object2
+	- Step 9: Enter input value in input shippingAddressFirstName
+	- Step 10: Click on input shippingAddressLastName
+	- Step 11: Hover over div object3
+	- Step 12: Enter input value in input shippingAddressLastName
+	- Step 13: Click on input shippingAddressAddressLine1
+	- Step 14: Hover over div object4
+	- Step 15: Enter input value in input shippingAddressAddressLine1
+	- Step 16: Click on input shippingAddressZip
+	- Step 17: Hover over div object5
+	- Step 18: Click on input shippingAddressCity
+	- Step 19: Enter input value in input shippingAddressZip
+	- Step 20: Hover over div object6
+	- Step 21: Enter input value in input shippingAddressCity
+	- Step 22: Click on input shippingAddressState
+	- Step 23: Hover over div object7
+	- Step 24: Enter input value in input shippingAddressState
+	- Step 25: Click on input shippingAddressPhone
+	- Step 26: Enter input value in input shippingAddressPhone
+	- Step 27: Click on button continueToPayment -> Navigate to page 'checkout/payment'
+	- Step 28: Click on button completeOrder
+Step 10: Take full page screenshot as checkpoint
+",Trivial,NEW
