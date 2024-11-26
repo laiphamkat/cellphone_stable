@@ -1,9 +1,9 @@
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import truetest.custom.TrueTestScripts
-import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable
-import truetest.common.fillShippingInformationAndCompleteOrder
+import com.kms.katalon.core.configuration.RunConfiguration
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import truetest.common.fillShippingInfoAndCompleteOrder
 
 def reportLocation = RunConfiguration.getReportFolder()
 
@@ -36,13 +36,14 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_home/link_
 
 WebUI.takeScreenshot(reportLocation + '/TC2/Step 3-Click on link brand apple - Navigate to page category.png')
 
-"Step 4: Click on button object"
+"Step 4: Click on button dynamicObject (object)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/button_object'))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category/button_dynamicObject"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/button_dynamicObject', ['button_dynamicObject_class': button_dynamicObject_class, 'button_dynamicObject_internalHasText': button_dynamicObject_internalHasText]))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 4-Click on button object.png')
+WebUI.takeScreenshot(reportLocation + '/TC2/Step 4-Click on button dynamicObject object.png')
 
 "Step 5: Click on label dynamicObject (object)"
 
@@ -78,13 +79,13 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/link_PlaceAnOrder
 
 WebUI.takeScreenshot(reportLocation + '/TC2/Step 8-Click on link PlaceAnOrder.png')
 
-"Step 9: Fill out shipping information and complete order"
+"Step 9: Fill shipping information and complete the order"
 
-fillShippingInformationAndCompleteOrder.execute(data_path_0, Integer.valueOf(index_0))
+fillShippingInfoAndCompleteOrder.execute(data_path_0, Integer.valueOf(index_0))
 
 "Step 10: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Complete Purchase of Dynamic Object Item_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Complete Purchase with Dynamic Button Selection_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

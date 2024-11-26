@@ -1,9 +1,9 @@
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import truetest.custom.TrueTestScripts
-import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable
-import truetest.common.fillShippingInformationAndCompleteOrder
+import com.kms.katalon.core.configuration.RunConfiguration
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import truetest.common.fillShippingInfoAndCompleteOrder
 
 def reportLocation = RunConfiguration.getReportFolder()
 
@@ -68,17 +68,18 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/link_goToCart'))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 7-Click on link goToCart - Navigate to page cart.png')
 
-"Step 8: Click on button increased"
+"Step 8: Click on button quantityIncrease (increased)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/cart?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_cart/button_increased'))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_cart/button_quantityIncrease"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_cart/button_quantityIncrease', ['button_quantityIncrease_nthChild': button_quantityIncrease_nthChild, 'button_quantityIncrease_internalRoleButtonName': button_quantityIncrease_internalRoleButtonName]))
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 8-Click on button increased.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 8-Click on button quantityIncrease increased.png')
 
-"Step 9: Fill out shipping information and complete order"
+"Step 9: Fill shipping information and complete the order"
 
-fillShippingInformationAndCompleteOrder.execute(data_path_0, Integer.valueOf(index_0))
+fillShippingInfoAndCompleteOrder.execute(data_path_0, Integer.valueOf(index_0))
 
 "Step 10: Take full page screenshot as checkpoint"
 
