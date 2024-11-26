@@ -1,9 +1,9 @@
-import truetest.custom.TrueTestScripts
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable
-import com.kms.katalon.core.configuration.RunConfiguration
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import truetest.common.fillShippingInfoAndCompleteOrder
+import internal.GlobalVariable
+import truetest.custom.TrueTestScripts
+import truetest.common.fillShippingInformationAndCompleteOrder
+import com.kms.katalon.core.configuration.RunConfiguration
 
 def reportLocation = RunConfiguration.getReportFolder()
 
@@ -19,22 +19,22 @@ def setup() {
 
 TrueTestScripts.navigate("/")
 
-"Step 2: Hover over li object2"
+"Step 2: Hover over li object"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.mouseOver(findTestObject('AI-Generated/Page_home/li_object2'))
+WebUI.mouseOver(findTestObject('AI-Generated/Page_home/li_object'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 2-Hover over li object2.png')
+WebUI.takeScreenshot(reportLocation + '/TC2/Step 2-Hover over li object.png')
 
-"Step 3: Click on link brand (apple) -> Navigate to page 'category/*'"
+"Step 3: Click on link mobileBrands (apple) -> Navigate to page 'category/*'"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_home/link_brand"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_home/link_brand', ['link_brand_nthChild': link_brand_nthChild, 'link_brand_internalRoleLinkName': link_brand_internalRoleLinkName, 'link_brand_category_id': link_brand_category_id]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_home/link_mobileBrands"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_home/link_mobileBrands', ['link_mobileBrands_nthChild': link_mobileBrands_nthChild, 'link_mobileBrands_internalRoleLinkName': link_mobileBrands_internalRoleLinkName, 'link_mobileBrands_category_id': link_mobileBrands_category_id]))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 3-Click on link brand apple - Navigate to page category.png')
+WebUI.takeScreenshot(reportLocation + '/TC2/Step 3-Click on link mobileBrands apple - Navigate to page category.png')
 
 "Step 4: Click on button dynamicObject (object)"
 
@@ -81,11 +81,11 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 8-Click on link PlaceAnOrder.pn
 
 "Step 9: Fill shipping information and complete the order"
 
-fillShippingInfoAndCompleteOrder.execute(data_path_0, Integer.valueOf(index_0))
+fillShippingInformationAndCompleteOrder.execute(data_path_0, Integer.valueOf(index_0))
 
 "Step 10: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Complete Purchase with Dynamic Button Selection_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Complete Order for Mobile Brand with Dynamic Options_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

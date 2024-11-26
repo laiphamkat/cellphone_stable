@@ -3,8 +3,8 @@ package truetest.common
 import com.kms.katalon.core.testdata.TestData as TestData
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 public class fillShippingInformationAndCompleteOrder {
     
@@ -78,13 +78,13 @@ public class fillShippingInformationAndCompleteOrder {
         
         WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_object5'))
         
-        "Step 18: Click on input shippingAddressCity"
-        
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressCity'))
-        
-        "Step 19: Enter input value in input shippingAddressZip"
+        "Step 18: Enter input value in input shippingAddressZip"
         
         WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressZip'), data['input_shippingAddressZip'])
+        
+        "Step 19: Click on input shippingAddressCity"
+        
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressCity'))
         
         "Step 20: Hover over div object6"
         
