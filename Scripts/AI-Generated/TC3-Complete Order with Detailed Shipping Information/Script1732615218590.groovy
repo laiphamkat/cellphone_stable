@@ -1,9 +1,9 @@
-import truetest.custom.TrueTestScripts
-import com.kms.katalon.core.configuration.RunConfiguration
-import truetest.common.proceedToCheckoutAndEnterEmail
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import internal.GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.configuration.RunConfiguration
+import truetest.custom.TrueTestScripts
+import truetest.common.proceedToCheckoutAndEnterEmail
+import internal.GlobalVariable
 
 def reportLocation = RunConfiguration.getReportFolder()
 
@@ -19,22 +19,22 @@ def setup() {
 
 TrueTestScripts.navigate("/")
 
-"Step 2: Hover over item object2"
+"Step 2: Hover over item object"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.mouseOver(findTestObject('AI-Generated/Page_home/item_object2'))
+WebUI.mouseOver(findTestObject('AI-Generated/Page_home/item_object'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 2-Hover over item object2.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 2-Hover over item object.png')
 
-"Step 3: Click on link brand (Apple) -> Navigate to page 'category/*'"
+"Step 3: Click on link mobileBrands (Apple) -> Navigate to page 'category/*'"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_home/link_brand"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_home/link_brand', ['link_brand_nthChild': link_brand_nthChild, 'link_brand_internalRoleLinkName': link_brand_internalRoleLinkName, 'category_id': category_id]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_home/link_mobileBrands"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_home/link_mobileBrands', ['link_mobileBrands_nthChild': link_mobileBrands_nthChild, 'link_mobileBrands_internalRoleLinkName': link_mobileBrands_internalRoleLinkName, 'category_id': category_id]))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 3-Click on link brand Apple - Navigate to page category.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 3-Click on link mobileBrands Apple - Navigate to page category.png')
 
 "Step 4: Click on button dynamicObject (object)"
 
@@ -43,25 +43,25 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 3-Click on link brand Apple - N
 // Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category/button_dynamicObject"
 WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/button_dynamicObject', ['button_dynamicObject_class': button_dynamicObject_class, 'button_dynamicObject_internalHasText': button_dynamicObject_internalHasText]))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 4-Click on button dynamicObject object.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 4-Click on button dynamicObject object.png')
 
-"Step 5: Click on label storageColor (256GB)"
-
-// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
-
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category/label_storageColor"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/label_storageColor', ['label_storageColor_for': label_storageColor_for, 'label_storageColor_internalText': label_storageColor_internalText]))
-
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 5-Click on label storageColor 256GB.png')
-
-"Step 6: Click on label storageColor (Green)"
+"Step 5: Click on label storageColorOption (256GB)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category/label_storageColor"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/label_storageColor', ['label_storageColor_for': label_storageColor_for_1, 'label_storageColor_internalText': label_storageColor_internalText_1]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category/label_storageColorOption"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/label_storageColorOption', ['label_storageColorOption_for': label_storageColorOption_for, 'label_storageColorOption_internalText': label_storageColorOption_internalText]))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 6-Click on label storageColor Green.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 5-Click on label storageColorOption 256GB.png')
+
+"Step 6: Click on label storageColorOption (Green)"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category/label_storageColorOption"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/label_storageColorOption', ['label_storageColorOption_for': label_storageColorOption_for_1, 'label_storageColorOption_internalText': label_storageColorOption_internalText_1]))
+
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 6-Click on label storageColorOption Green.png')
 
 "Step 7: Click on button Buy"
 
@@ -69,7 +69,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 6-Click on label storageColor G
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/button_Buy'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 7-Click on button Buy.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 7-Click on button Buy.png')
 
 "Step 8: Click on link PlaceAnOrder"
 
@@ -77,7 +77,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 7-Click on button Buy.png')
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/link_PlaceAnOrder'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 8-Click on link PlaceAnOrder.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 8-Click on link PlaceAnOrder.png')
 
 "Step 9: Proceed to checkout and enter email for shipping"
 
@@ -89,7 +89,7 @@ proceedToCheckoutAndEnterEmail.execute(data_path_0, Integer.valueOf(index_0))
 
 WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_object'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 10-Hover over div object.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 10-Hover over div object.png')
 
 "Step 11: Click on input FirstName"
 
@@ -97,7 +97,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 10-Hover over div object.png')
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_FirstName'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 11-Click on input FirstName.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 11-Click on input FirstName.png')
 
 "Step 12: Hover over div object2"
 
@@ -105,7 +105,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 11-Click on input FirstName.png
 
 WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_object2'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 12-Hover over div object2.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 12-Hover over div object2.png')
 
 "Step 13: Enter input value in input FirstName"
 
@@ -113,7 +113,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 12-Hover over div object2.png')
 
 WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_FirstName'), input_FirstName)
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 13-Enter input value in input FirstName.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 13-Enter input value in input FirstName.png')
 
 "Step 14: Click on input LastName"
 
@@ -121,7 +121,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 13-Enter input value in input F
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_LastName'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 14-Click on input LastName.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 14-Click on input LastName.png')
 
 "Step 15: Hover over div object3"
 
@@ -129,7 +129,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 14-Click on input LastName.png'
 
 WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_object3'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 15-Hover over div object3.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 15-Hover over div object3.png')
 
 "Step 16: Enter input value in input LastName"
 
@@ -137,7 +137,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 15-Hover over div object3.png')
 
 WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_LastName'), input_LastName)
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 16-Enter input value in input LastName.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 16-Enter input value in input LastName.png')
 
 "Step 17: Click on input Address"
 
@@ -145,7 +145,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 16-Enter input value in input L
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_Address'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 17-Click on input Address.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 17-Click on input Address.png')
 
 "Step 18: Hover over div object4"
 
@@ -153,7 +153,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 17-Click on input Address.png')
 
 WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_object4'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 18-Hover over div object4.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 18-Hover over div object4.png')
 
 "Step 19: Enter input value in input Address"
 
@@ -161,7 +161,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 18-Hover over div object4.png')
 
 WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_Address'), input_Address)
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 19-Enter input value in input Address.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 19-Enter input value in input Address.png')
 
 "Step 20: Click on input ZipCode"
 
@@ -169,7 +169,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 19-Enter input value in input A
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_ZipCode'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 20-Click on input ZipCode.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 20-Click on input ZipCode.png')
 
 "Step 21: Hover over div object5"
 
@@ -177,7 +177,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 20-Click on input ZipCode.png')
 
 WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_object5'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 21-Hover over div object5.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 21-Hover over div object5.png')
 
 "Step 22: Click on input City"
 
@@ -185,7 +185,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 21-Hover over div object5.png')
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_City'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 22-Click on input City.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 22-Click on input City.png')
 
 "Step 23: Enter input value in input ZipCode"
 
@@ -193,7 +193,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 22-Click on input City.png')
 
 WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_ZipCode'), input_ZipCode)
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 23-Enter input value in input ZipCode.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 23-Enter input value in input ZipCode.png')
 
 "Step 24: Hover over div object6"
 
@@ -201,7 +201,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 23-Enter input value in input Z
 
 WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_object6'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 24-Hover over div object6.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 24-Hover over div object6.png')
 
 "Step 25: Enter input value in input City"
 
@@ -209,7 +209,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 24-Hover over div object6.png')
 
 WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_City'), input_City)
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 25-Enter input value in input City.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 25-Enter input value in input City.png')
 
 "Step 26: Click on input State"
 
@@ -217,7 +217,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 25-Enter input value in input C
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_State'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 26-Click on input State.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 26-Click on input State.png')
 
 "Step 27: Hover over div object7"
 
@@ -225,7 +225,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 26-Click on input State.png')
 
 WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_object7'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 27-Hover over div object7.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 27-Hover over div object7.png')
 
 "Step 28: Enter input value in input State"
 
@@ -233,7 +233,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 27-Hover over div object7.png')
 
 WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_State'), input_State)
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 28-Enter input value in input State.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 28-Enter input value in input State.png')
 
 "Step 29: Click on input Phone"
 
@@ -241,7 +241,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 28-Enter input value in input S
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_Phone'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 29-Click on input Phone.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 29-Click on input Phone.png')
 
 "Step 30: Enter input value in input Phone"
 
@@ -249,7 +249,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 29-Click on input Phone.png')
 
 WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_Phone'), input_Phone)
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 30-Enter input value in input Phone.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 30-Enter input value in input Phone.png')
 
 "Step 31: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'"
 
@@ -257,7 +257,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 30-Enter input value in input P
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/button_ContinueToPayment'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 31-Click on button ContinueToPayment - Navigate to page checkoutpayment.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 31-Click on button ContinueToPayment - Navigate to page checkoutpayment.png')
 
 "Step 32: Click on button CompleteOrder -> Navigate to page 'thank-you/*'"
 
@@ -265,11 +265,11 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 31-Click on button ContinueToPa
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_payment/button_CompleteOrder'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 32-Click on button CompleteOrder - Navigate to page thank-you.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 32-Click on button CompleteOrder - Navigate to page thank-you.png')
 
 "Step 33: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Complete Purchase for Dynamic Storage Color Product_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Complete Order with Detailed Shipping Information_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
