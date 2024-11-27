@@ -3,16 +3,16 @@ package truetest.common
 import com.kms.katalon.core.testdata.TestData as TestData
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 public class proceedToCheckoutAndEnterEmail {
     
     private static def execute_functional_method(Map data) {
         
-        "Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'"
+        "Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'"
         
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_cart/button_ProceedToCheckout'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_cart_page/button_ProceedToCheckout'))
         
         "Step 2: Hover over div object"
         
