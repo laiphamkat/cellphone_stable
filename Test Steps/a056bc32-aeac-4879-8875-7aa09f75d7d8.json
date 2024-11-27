@@ -1,0 +1,15 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Hover over item object2",
+        "step 3: Click on link mobileBrands (Samsung) -> Navigate to page 'category page#category/*'",
+        "step 4: Click on link samsungProducts (SamsungGalaxyS23UltraSmartviewCases) -> Navigate to page 'product page#product/*'",
+        "step 5: Click on button Increased",
+        "step 6: Click on button purchaseOptions (Buy)",
+        "step 7: Click on link GoToCart -> Navigate to page 'cart page#cart'",
+        "step 8: Click on button quantityAdjustment (Increased)",
+        "step 9: Enter email and proceed to shipping details",
+        "step 10: Fill out shipping information and complete order",
+        "step 11: Take full page screenshot as checkpoint"
+    ]
+}
