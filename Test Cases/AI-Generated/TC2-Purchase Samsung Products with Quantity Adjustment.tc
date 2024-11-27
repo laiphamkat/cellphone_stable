@@ -10,10 +10,10 @@
     <name>TC2-Purchase Samsung Products with Quantity Adjustment</name>
     <origin>TRUETEST</origin>
     <tag></tag>
-    <testCaseGuid>35a50d4b-59a8-4b9f-a049-7877209895cc</testCaseGuid>
+    <testCaseGuid>0554886c-c36c-429f-8256-7ced4fd0ad2a</testCaseGuid>
     <testDataLinks>
         <combinationType>ONE</combinationType>
-        <id>6150d23f-c0b4-4d49-b036-886e9beb4395</id>
+        <id>3b003f42-d6f7-4b28-8453-c4378f3d5ea1</id>
         <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -23,170 +23,170 @@
     <variable>
         <defaultValue>''</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>7a723298-de55-4d85-96c2-d0f86d8cf954</id>
+        <id>76e64294-f508-481f-9379-0f4f30e8300b</id>
         <masked>false</masked>
         <name>button_purchaseOptions_internalRoleButtonName</name>
     </variable>
     <variable>
         <defaultValue>''</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>e032b874-429b-4133-acc1-d97b279cc5a4</id>
+        <id>604d0adf-bb83-4787-9f9c-5c16afa0b3e0</id>
         <masked>false</masked>
         <name>button_quantityAdjustment_internalRoleButtonName</name>
     </variable>
     <variable>
         <defaultValue>'3'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>3916057b-1232-41fc-866e-cf3abab0a3c0</id>
+        <id>182ab88a-8b16-427e-bc87-93a4c4981fb8</id>
         <masked>false</masked>
         <name>button_quantityAdjustment_nthChild</name>
     </variable>
     <variable>
         <defaultValue>'power-and-cables'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>6b473856-cf38-40d9-8e16-86495ec6815f</id>
+        <id>0600db2f-2adb-4e74-a2fe-0544e5911f54</id>
         <masked>false</masked>
         <name>category_id</name>
     </variable>
     <variable>
         <defaultValue>'Data Files/AI-Generated/Common/proceedToCheckoutAndEnterEmail-test-data'</defaultValue>
         <description>Common function data file id</description>
-        <id>b21cbac1-e47a-430e-886b-eae4cac388c2</id>
+        <id>e090abcf-be0a-4649-a5c7-4013e07fb32f</id>
         <masked>false</masked>
         <name>data_path_0</name>
     </variable>
     <variable>
         <defaultValue>'Data Files/AI-Generated/Common/fillShippingDetailsAndCompleteOrder-test-data'</defaultValue>
         <description>Common function data file id</description>
-        <id>fabd4dcd-925e-4879-8bdf-57eb0e0892ca</id>
+        <id>cfed34c7-fb02-432b-acd4-362915ad8224</id>
         <masked>false</masked>
         <name>data_path_1</name>
     </variable>
     <variable>
-        <defaultValue>'2'</defaultValue>
+        <defaultValue>'1'</defaultValue>
         <description>Common function data row index</description>
-        <id>2271f831-6a10-4b26-82d5-b8e86cc26b78</id>
+        <id>3fa20495-b6f5-4100-a4b9-875df3d0e822</id>
         <masked>false</masked>
         <name>index_0</name>
     </variable>
     <variable>
-        <defaultValue>'2'</defaultValue>
+        <defaultValue>'1'</defaultValue>
         <description>Common function data row index</description>
-        <id>5da31cb5-5c69-4d87-874f-56cbcf22b3e4</id>
+        <id>aef36c6a-8f51-4c35-8884-f4902aab41b5</id>
         <masked>false</masked>
         <name>index_1</name>
     </variable>
     <variable>
         <defaultValue>''</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>635291ae-8d3e-4ba5-8dd1-78ce4f866eef</id>
+        <id>a3c27fc6-9c83-432d-bd3c-605b011ee1c6</id>
         <masked>false</masked>
         <name>link_mobileBrands_internalRoleLinkName</name>
     </variable>
     <variable>
         <defaultValue>'2'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>9a09a2fa-7100-42ef-a19d-d23523b093e9</id>
+        <id>9a6a5c5c-ac69-4887-acc0-c766ac231b84</id>
         <masked>false</masked>
         <name>link_mobileBrands_nthChild</name>
     </variable>
     <variable>
         <defaultValue>'products__item\\ in-stock\\ products__item_3-in-row"]:nth-child(1) [class="products__title'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>2d23736f-bf8d-41ca-ba3b-f7b9e0b05d6d</id>
+        <id>7bf692b2-3493-4f84-9bc5-bc248860c6f4</id>
         <masked>false</masked>
         <name>link_samsungProducts_class</name>
     </variable>
     <variable>
         <defaultValue>'Samsung Galaxy S23 Ultra'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>e7fd85af-8b66-49c3-8223-f70a04fdb9f6</id>
+        <id>a52e64a3-d353-45f3-a0c7-9aed4abd9335</id>
         <masked>false</masked>
         <name>link_samsungProducts_internalRoleHeadingName</name>
     </variable>
     <variable>
         <defaultValue>'samsung-galaxy-s23-ultra-smartview-cases'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>5e6553c5-2cec-4979-b828-b0c5d564e2eb</id>
+        <id>387365c9-0f98-46c1-ba75-503f8d1e0370</id>
         <masked>false</masked>
         <name>product_id</name>
     </variable>
     <variableLinks>
-        <testDataLinkId>6150d23f-c0b4-4d49-b036-886e9beb4395</testDataLinkId>
+        <testDataLinkId>3b003f42-d6f7-4b28-8453-c4378f3d5ea1</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>button_purchaseOptions_internalRoleButtonName</value>
-        <variableId>7a723298-de55-4d85-96c2-d0f86d8cf954</variableId>
+        <variableId>76e64294-f508-481f-9379-0f4f30e8300b</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>6150d23f-c0b4-4d49-b036-886e9beb4395</testDataLinkId>
+        <testDataLinkId>3b003f42-d6f7-4b28-8453-c4378f3d5ea1</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>button_quantityAdjustment_internalRoleButtonName</value>
-        <variableId>e032b874-429b-4133-acc1-d97b279cc5a4</variableId>
+        <variableId>604d0adf-bb83-4787-9f9c-5c16afa0b3e0</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>6150d23f-c0b4-4d49-b036-886e9beb4395</testDataLinkId>
+        <testDataLinkId>3b003f42-d6f7-4b28-8453-c4378f3d5ea1</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>button_quantityAdjustment_nthChild</value>
-        <variableId>3916057b-1232-41fc-866e-cf3abab0a3c0</variableId>
+        <variableId>182ab88a-8b16-427e-bc87-93a4c4981fb8</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>6150d23f-c0b4-4d49-b036-886e9beb4395</testDataLinkId>
+        <testDataLinkId>3b003f42-d6f7-4b28-8453-c4378f3d5ea1</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>category_id</value>
-        <variableId>6b473856-cf38-40d9-8e16-86495ec6815f</variableId>
+        <variableId>0600db2f-2adb-4e74-a2fe-0544e5911f54</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>6150d23f-c0b4-4d49-b036-886e9beb4395</testDataLinkId>
+        <testDataLinkId>3b003f42-d6f7-4b28-8453-c4378f3d5ea1</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>data_path_0</value>
-        <variableId>b21cbac1-e47a-430e-886b-eae4cac388c2</variableId>
+        <variableId>e090abcf-be0a-4649-a5c7-4013e07fb32f</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>6150d23f-c0b4-4d49-b036-886e9beb4395</testDataLinkId>
+        <testDataLinkId>3b003f42-d6f7-4b28-8453-c4378f3d5ea1</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>data_path_1</value>
-        <variableId>fabd4dcd-925e-4879-8bdf-57eb0e0892ca</variableId>
+        <variableId>cfed34c7-fb02-432b-acd4-362915ad8224</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>6150d23f-c0b4-4d49-b036-886e9beb4395</testDataLinkId>
+        <testDataLinkId>3b003f42-d6f7-4b28-8453-c4378f3d5ea1</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>index_0</value>
-        <variableId>2271f831-6a10-4b26-82d5-b8e86cc26b78</variableId>
+        <variableId>3fa20495-b6f5-4100-a4b9-875df3d0e822</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>6150d23f-c0b4-4d49-b036-886e9beb4395</testDataLinkId>
+        <testDataLinkId>3b003f42-d6f7-4b28-8453-c4378f3d5ea1</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>index_1</value>
-        <variableId>5da31cb5-5c69-4d87-874f-56cbcf22b3e4</variableId>
+        <variableId>aef36c6a-8f51-4c35-8884-f4902aab41b5</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>6150d23f-c0b4-4d49-b036-886e9beb4395</testDataLinkId>
+        <testDataLinkId>3b003f42-d6f7-4b28-8453-c4378f3d5ea1</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>link_mobileBrands_internalRoleLinkName</value>
-        <variableId>635291ae-8d3e-4ba5-8dd1-78ce4f866eef</variableId>
+        <variableId>a3c27fc6-9c83-432d-bd3c-605b011ee1c6</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>6150d23f-c0b4-4d49-b036-886e9beb4395</testDataLinkId>
+        <testDataLinkId>3b003f42-d6f7-4b28-8453-c4378f3d5ea1</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>link_mobileBrands_nthChild</value>
-        <variableId>9a09a2fa-7100-42ef-a19d-d23523b093e9</variableId>
+        <variableId>9a6a5c5c-ac69-4887-acc0-c766ac231b84</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>6150d23f-c0b4-4d49-b036-886e9beb4395</testDataLinkId>
+        <testDataLinkId>3b003f42-d6f7-4b28-8453-c4378f3d5ea1</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>link_samsungProducts_class</value>
-        <variableId>2d23736f-bf8d-41ca-ba3b-f7b9e0b05d6d</variableId>
+        <variableId>7bf692b2-3493-4f84-9bc5-bc248860c6f4</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>6150d23f-c0b4-4d49-b036-886e9beb4395</testDataLinkId>
+        <testDataLinkId>3b003f42-d6f7-4b28-8453-c4378f3d5ea1</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>link_samsungProducts_internalRoleHeadingName</value>
-        <variableId>e7fd85af-8b66-49c3-8223-f70a04fdb9f6</variableId>
+        <variableId>a52e64a3-d353-45f3-a0c7-9aed4abd9335</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>6150d23f-c0b4-4d49-b036-886e9beb4395</testDataLinkId>
+        <testDataLinkId>3b003f42-d6f7-4b28-8453-c4378f3d5ea1</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>product_id</value>
-        <variableId>5e6553c5-2cec-4979-b828-b0c5d564e2eb</variableId>
+        <variableId>387365c9-0f98-46c1-ba75-503f8d1e0370</variableId>
     </variableLinks>
 </TestCaseEntity>

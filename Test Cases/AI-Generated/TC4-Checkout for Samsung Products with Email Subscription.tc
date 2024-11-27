@@ -10,10 +10,10 @@
     <name>TC4-Checkout for Samsung Products with Email Subscription</name>
     <origin>TRUETEST</origin>
     <tag></tag>
-    <testCaseGuid>668a58e8-862d-46e9-9507-2e942c7f609e</testCaseGuid>
+    <testCaseGuid>532b3260-0ced-430e-a45e-f83ba07205ff</testCaseGuid>
     <testDataLinks>
         <combinationType>ONE</combinationType>
-        <id>4e12bc72-df1c-453e-bb36-9f0e763b2478</id>
+        <id>d34cb723-0907-4bd3-890f-fe0747f66dbf</id>
         <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -23,196 +23,196 @@
     <variable>
         <defaultValue>''</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>08cf2b96-ac15-4252-8424-b8aa922066d9</id>
+        <id>2a0384c7-531c-4a18-9d2b-10a17ce1ca06</id>
         <masked>false</masked>
         <name>button_purchaseOptions_internalRoleButtonName</name>
     </variable>
     <variable>
         <defaultValue>''</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>07d61845-6dae-4eff-a176-df1cb18f4a1a</id>
+        <id>afc05188-52e6-4dcd-96cb-de1376128e4c</id>
         <masked>false</masked>
         <name>button_purchaseOptions_internalRoleButtonName_1</name>
     </variable>
     <variable>
         <defaultValue>'samsung'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>250937e7-8e14-4090-a295-6c8cead4eeef</id>
+        <id>01649692-755b-45b7-97e6-a7153830d127</id>
         <masked>false</masked>
         <name>category_id</name>
     </variable>
     <variable>
         <defaultValue>'Data Files/AI-Generated/Common/fillShippingDetailsAndCompleteOrder-test-data'</defaultValue>
         <description>Common function data file id</description>
-        <id>83380500-1d41-462f-a709-004981f5d952</id>
+        <id>ef7c14f7-bbb1-4b73-81b2-2aa956ff159c</id>
         <masked>false</masked>
         <name>data_path_0</name>
     </variable>
     <variable>
-        <defaultValue>'3'</defaultValue>
+        <defaultValue>'2'</defaultValue>
         <description>Common function data row index</description>
-        <id>6d5af64e-bed8-47d0-95b3-1c123fb12aec</id>
+        <id>25baf1c5-81d0-436d-ba38-bd9d7cc7d241</id>
         <masked>false</masked>
         <name>index_0</name>
     </variable>
     <variable>
         <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>b79ee32e-f78e-4125-9ddb-37f60d6cdf0b</id>
+        <id>13642a16-3443-4e56-aa04-d00978ae29fe</id>
         <masked>false</masked>
         <name>input_Email</name>
     </variable>
     <variable>
         <defaultValue>'\\31 52179-case-671'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>c2ad7bb8-395b-4074-88b3-37fe98e7a18c</id>
+        <id>ca42c64c-342c-4ffb-abce-7ed1435e00a1</id>
         <masked>false</masked>
-        <name>label_storageColorOption_for</name>
+        <name>label_storageColorOptions_for</name>
     </variable>
     <variable>
         <defaultValue>'\\31 52180-case-674'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>b8cd63b9-a7df-45e7-bf65-2d6a23cc76b4</id>
+        <id>76772cc5-012f-49b7-a8e6-0259a11180ba</id>
         <masked>false</masked>
-        <name>label_storageColorOption_for_1</name>
+        <name>label_storageColorOptions_for_1</name>
     </variable>
     <variable>
         <defaultValue>'512 GB'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>57f23390-5969-4d3f-a09a-0551a8d612ce</id>
+        <id>db2e25c5-3998-42da-a136-ce081d2031e1</id>
         <masked>false</masked>
-        <name>label_storageColorOption_internalText</name>
+        <name>label_storageColorOptions_internalText</name>
     </variable>
     <variable>
         <defaultValue>'Blue'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>5e800a3f-aabd-498a-b775-cbe12766f2d8</id>
+        <id>9a92319b-b6fd-40bf-9070-c12515016703</id>
         <masked>false</masked>
-        <name>label_storageColorOption_internalText_1</name>
+        <name>label_storageColorOptions_internalText_1</name>
     </variable>
     <variable>
         <defaultValue>''</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>6d671be7-992e-42c3-9479-609f312e3ff5</id>
+        <id>8f06590d-7e14-464d-8f4d-3a1806308ed8</id>
         <masked>false</masked>
         <name>link_mobileBrands_internalRoleLinkName</name>
     </variable>
     <variable>
         <defaultValue>'2'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>9de2a087-46d6-4fdd-b365-1414ff2e85b7</id>
+        <id>9d741d8e-c8e8-462f-a7ed-5141bb9ec6fd</id>
         <masked>false</masked>
         <name>link_mobileBrands_nthChild</name>
     </variable>
     <variable>
         <defaultValue>'products__item\\ in-stock\\ products__item_3-in-row"]:nth-child(2) [class="products__title'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>7adfbc83-f168-4c68-a4a0-e8fa79d14b37</id>
+        <id>2b84a628-939b-4c59-9150-70e6d4204436</id>
         <masked>false</masked>
         <name>link_samsungProducts_class</name>
     </variable>
     <variable>
         <defaultValue>'Samsung Galaxy Z Fold5'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>5488cfb5-f6dc-499f-b5ac-48a7e0d3d575</id>
+        <id>e942a650-4ca8-46a6-9d64-504b9b62a8d4</id>
         <masked>false</masked>
         <name>link_samsungProducts_internalRoleHeadingName</name>
     </variable>
     <variable>
         <defaultValue>'ss-galaxy-z-fold5?category=121'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>0bfa029d-956c-4e83-a48d-957864dc5807</id>
+        <id>a1eabaae-a191-4a81-911e-a869a132ee00</id>
         <masked>false</masked>
         <name>product_id</name>
     </variable>
     <variableLinks>
-        <testDataLinkId>4e12bc72-df1c-453e-bb36-9f0e763b2478</testDataLinkId>
+        <testDataLinkId>d34cb723-0907-4bd3-890f-fe0747f66dbf</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>button_purchaseOptions_internalRoleButtonName</value>
-        <variableId>08cf2b96-ac15-4252-8424-b8aa922066d9</variableId>
+        <variableId>2a0384c7-531c-4a18-9d2b-10a17ce1ca06</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>4e12bc72-df1c-453e-bb36-9f0e763b2478</testDataLinkId>
+        <testDataLinkId>d34cb723-0907-4bd3-890f-fe0747f66dbf</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>button_purchaseOptions_internalRoleButtonName_1</value>
-        <variableId>07d61845-6dae-4eff-a176-df1cb18f4a1a</variableId>
+        <variableId>afc05188-52e6-4dcd-96cb-de1376128e4c</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>4e12bc72-df1c-453e-bb36-9f0e763b2478</testDataLinkId>
+        <testDataLinkId>d34cb723-0907-4bd3-890f-fe0747f66dbf</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>category_id</value>
-        <variableId>250937e7-8e14-4090-a295-6c8cead4eeef</variableId>
+        <variableId>01649692-755b-45b7-97e6-a7153830d127</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>4e12bc72-df1c-453e-bb36-9f0e763b2478</testDataLinkId>
+        <testDataLinkId>d34cb723-0907-4bd3-890f-fe0747f66dbf</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>data_path_0</value>
-        <variableId>83380500-1d41-462f-a709-004981f5d952</variableId>
+        <variableId>ef7c14f7-bbb1-4b73-81b2-2aa956ff159c</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>4e12bc72-df1c-453e-bb36-9f0e763b2478</testDataLinkId>
+        <testDataLinkId>d34cb723-0907-4bd3-890f-fe0747f66dbf</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>index_0</value>
-        <variableId>6d5af64e-bed8-47d0-95b3-1c123fb12aec</variableId>
+        <variableId>25baf1c5-81d0-436d-ba38-bd9d7cc7d241</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>4e12bc72-df1c-453e-bb36-9f0e763b2478</testDataLinkId>
+        <testDataLinkId>d34cb723-0907-4bd3-890f-fe0747f66dbf</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>input_Email</value>
-        <variableId>b79ee32e-f78e-4125-9ddb-37f60d6cdf0b</variableId>
+        <variableId>13642a16-3443-4e56-aa04-d00978ae29fe</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>4e12bc72-df1c-453e-bb36-9f0e763b2478</testDataLinkId>
+        <testDataLinkId>d34cb723-0907-4bd3-890f-fe0747f66dbf</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>label_storageColorOption_for</value>
-        <variableId>c2ad7bb8-395b-4074-88b3-37fe98e7a18c</variableId>
+        <value>label_storageColorOptions_for</value>
+        <variableId>ca42c64c-342c-4ffb-abce-7ed1435e00a1</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>4e12bc72-df1c-453e-bb36-9f0e763b2478</testDataLinkId>
+        <testDataLinkId>d34cb723-0907-4bd3-890f-fe0747f66dbf</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>label_storageColorOption_for_1</value>
-        <variableId>b8cd63b9-a7df-45e7-bf65-2d6a23cc76b4</variableId>
+        <value>label_storageColorOptions_for_1</value>
+        <variableId>76772cc5-012f-49b7-a8e6-0259a11180ba</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>4e12bc72-df1c-453e-bb36-9f0e763b2478</testDataLinkId>
+        <testDataLinkId>d34cb723-0907-4bd3-890f-fe0747f66dbf</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>label_storageColorOption_internalText</value>
-        <variableId>57f23390-5969-4d3f-a09a-0551a8d612ce</variableId>
+        <value>label_storageColorOptions_internalText</value>
+        <variableId>db2e25c5-3998-42da-a136-ce081d2031e1</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>4e12bc72-df1c-453e-bb36-9f0e763b2478</testDataLinkId>
+        <testDataLinkId>d34cb723-0907-4bd3-890f-fe0747f66dbf</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>label_storageColorOption_internalText_1</value>
-        <variableId>5e800a3f-aabd-498a-b775-cbe12766f2d8</variableId>
+        <value>label_storageColorOptions_internalText_1</value>
+        <variableId>9a92319b-b6fd-40bf-9070-c12515016703</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>4e12bc72-df1c-453e-bb36-9f0e763b2478</testDataLinkId>
+        <testDataLinkId>d34cb723-0907-4bd3-890f-fe0747f66dbf</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>link_mobileBrands_internalRoleLinkName</value>
-        <variableId>6d671be7-992e-42c3-9479-609f312e3ff5</variableId>
+        <variableId>8f06590d-7e14-464d-8f4d-3a1806308ed8</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>4e12bc72-df1c-453e-bb36-9f0e763b2478</testDataLinkId>
+        <testDataLinkId>d34cb723-0907-4bd3-890f-fe0747f66dbf</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>link_mobileBrands_nthChild</value>
-        <variableId>9de2a087-46d6-4fdd-b365-1414ff2e85b7</variableId>
+        <variableId>9d741d8e-c8e8-462f-a7ed-5141bb9ec6fd</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>4e12bc72-df1c-453e-bb36-9f0e763b2478</testDataLinkId>
+        <testDataLinkId>d34cb723-0907-4bd3-890f-fe0747f66dbf</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>link_samsungProducts_class</value>
-        <variableId>7adfbc83-f168-4c68-a4a0-e8fa79d14b37</variableId>
+        <variableId>2b84a628-939b-4c59-9150-70e6d4204436</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>4e12bc72-df1c-453e-bb36-9f0e763b2478</testDataLinkId>
+        <testDataLinkId>d34cb723-0907-4bd3-890f-fe0747f66dbf</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>link_samsungProducts_internalRoleHeadingName</value>
-        <variableId>5488cfb5-f6dc-499f-b5ac-48a7e0d3d575</variableId>
+        <variableId>e942a650-4ca8-46a6-9d64-504b9b62a8d4</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>4e12bc72-df1c-453e-bb36-9f0e763b2478</testDataLinkId>
+        <testDataLinkId>d34cb723-0907-4bd3-890f-fe0747f66dbf</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>product_id</value>
-        <variableId>0bfa029d-956c-4e83-a48d-957864dc5807</variableId>
+        <variableId>a1eabaae-a191-4a81-911e-a869a132ee00</variableId>
     </variableLinks>
 </TestCaseEntity>

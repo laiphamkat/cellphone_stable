@@ -1,9 +1,9 @@
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import truetest.common.fillShippingDetailsAndCompleteOrder
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.configuration.RunConfiguration
-import truetest.custom.TrueTestScripts
+import truetest.common.fillShippingDetailsAndCompleteOrder
 import truetest.common.proceedToCheckoutAndEnterEmail
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import truetest.custom.TrueTestScripts
 import internal.GlobalVariable
 
 def reportLocation = RunConfiguration.getReportFolder()
@@ -57,13 +57,13 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 5-Click on link GoToCart.png')
 
 proceedToCheckoutAndEnterEmail.execute(data_path_0, Integer.valueOf(index_0))
 
-"Step 7: Fill out shipping details and complete the order"
+"Step 7: Fill in shipping details and complete the order"
 
 fillShippingDetailsAndCompleteOrder.execute(data_path_1, Integer.valueOf(index_1))
 
 "Step 8: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Complete Order for Mobile Brand with Basic Checkout_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Complete Order for Mobile Brands from Home Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

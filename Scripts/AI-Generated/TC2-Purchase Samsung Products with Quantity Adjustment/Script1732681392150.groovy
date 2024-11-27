@@ -1,9 +1,9 @@
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import truetest.common.fillShippingDetailsAndCompleteOrder
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.configuration.RunConfiguration
-import truetest.custom.TrueTestScripts
+import truetest.common.fillShippingDetailsAndCompleteOrder
 import truetest.common.proceedToCheckoutAndEnterEmail
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import truetest.custom.TrueTestScripts
 import internal.GlobalVariable
 
 def reportLocation = RunConfiguration.getReportFolder()
@@ -84,7 +84,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 8-Click on button quantityAdjus
 
 proceedToCheckoutAndEnterEmail.execute(data_path_0, Integer.valueOf(index_0))
 
-"Step 10: Fill out shipping details and complete the order"
+"Step 10: Fill in shipping details and complete the order"
 
 fillShippingDetailsAndCompleteOrder.execute(data_path_1, Integer.valueOf(index_1))
 
