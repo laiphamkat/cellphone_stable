@@ -12,7 +12,7 @@ public class proceedToCheckoutAndEnterEmail {
         
         "Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'"
         
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_cart_page/button_ProceedToCheckout'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_cart/button_ProceedToCheckout'))
         
         "Step 2: Hover over div object"
         
