@@ -34,7 +34,7 @@
         <name>href</name>
         <type>Main</type>
         <value>/product/apple-iphone-15-finewoven-case-with-magsafe-taupe?category=99</value>
-        <webElementGuid>f156ebdf-de48-4ac9-ab6a-5711f062fc27</webElementGuid>
+        <webElementGuid>78aba2ab-c6b1-40a5-96f5-ac0dcf1454ae</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,6 +42,6 @@
         <name>text</name>
         <type>Main</type>
         <value>iPhone 15 FineWoven Case with MagSafe - Taupe</value>
-        <webElementGuid>f156ebdf-de48-4ac9-ab6a-5711f062fc27</webElementGuid>
+        <webElementGuid>78aba2ab-c6b1-40a5-96f5-ac0dcf1454ae</webElementGuid>
     </webElementProperties>
 </WebElementEntity>
