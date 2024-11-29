@@ -1,9 +1,9 @@
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.configuration.RunConfiguration
 import truetest.custom.TrueTestScripts
-import internal.GlobalVariable
-import truetest.common.fillOutCheckoutFormWithAddressDetails
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable
+import truetest.common.fillShippingDetailsAndCompleteOrder
+import com.kms.katalon.core.configuration.RunConfiguration
 
 def reportLocation = RunConfiguration.getReportFolder()
 
@@ -27,14 +27,14 @@ WebUI.mouseOver(findTestObject('AI-Generated/Page_home/item_object'))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 2-Hover over item object.png')
 
-"Step 3: Click on link mobileDevice (GooglePixel) -> Navigate to page 'category page#category/*'"
+"Step 3: Click on link mobileDevices (GooglePixel) -> Navigate to page 'category page#category/*'"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_home/link_mobileDevice"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_home/link_mobileDevice', ['link_mobileDevice_nthChild': link_mobileDevice_nthChild]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_home/link_mobileDevices"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_home/link_mobileDevices', ['link_mobileDevices_nthChild': link_mobileDevices_nthChild]))
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 3-Click on link mobileDevice GooglePixel - Navigate to page category pagecategory.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 3-Click on link mobileDevices GooglePixel - Navigate to page category pagecategory.png')
 
 "Step 4: Click on link productDetail (ProductGooglePixel7Pro) -> Navigate to page 'product page#product/*'"
 
@@ -44,23 +44,23 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/l
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 4-Click on link productDetail ProductGooglePixel7Pro - Navigate to page product pageproduct.png')
 
-"Step 5: Click on button purchaseAction (Increased)"
+"Step 5: Click on button purchaseOptions (Increased)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/button_purchaseAction"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_purchaseAction', ['button_purchaseAction_internalRoleButtonName': button_purchaseAction_internalRoleButtonName]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/button_purchaseOptions"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_purchaseOptions', ['button_purchaseOptions_internalRoleButtonName': button_purchaseOptions_internalRoleButtonName]))
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 5-Click on button purchaseAction Increased.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 5-Click on button purchaseOptions Increased.png')
 
-"Step 6: Click on button purchaseAction (Buy)"
+"Step 6: Click on button purchaseOptions (Buy)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/button_purchaseAction"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_purchaseAction', ['button_purchaseAction_internalRoleButtonName': button_purchaseAction_internalRoleButtonName_1]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/button_purchaseOptions"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_purchaseOptions', ['button_purchaseOptions_internalRoleButtonName': button_purchaseOptions_internalRoleButtonName_1]))
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 6-Click on button purchaseAction Buy.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 6-Click on button purchaseOptions Buy.png')
 
 "Step 7: Click on link PlaceAnOrder -> Navigate to page 'cart page#cart'"
 
@@ -126,13 +126,13 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_info/button_Conti
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 14-Click on button ContinueToShipping.png')
 
-"Step 15: Fill out checkout form with personal and address details"
+"Step 15: Fill in shipping details and complete the order"
 
-fillOutCheckoutFormWithAddressDetails.execute(data_path_0, Integer.valueOf(index_0))
+fillShippingDetailsAndCompleteOrder.execute(data_path_0, Integer.valueOf(index_0))
 
 "Step 16: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Complete Purchase and Checkout for Mobile Device_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Complete Order for Mobile Devices with Email Verification_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

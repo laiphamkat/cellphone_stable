@@ -1,8 +1,8 @@
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.configuration.RunConfiguration
 import truetest.custom.TrueTestScripts
-import internal.GlobalVariable
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable
+import com.kms.katalon.core.configuration.RunConfiguration
 
 def reportLocation = RunConfiguration.getReportFolder()
 
@@ -26,14 +26,14 @@ WebUI.mouseOver(findTestObject('AI-Generated/Page_home/item_object'))
 
 WebUI.takeScreenshot(reportLocation + '/TC4/Step 2-Hover over item object.png')
 
-"Step 3: Click on link mobileDevice (Apple2) -> Navigate to page 'category page#category/*'"
+"Step 3: Click on link mobileDevices (Apple2) -> Navigate to page 'category page#category/*'"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_home/link_mobileDevice"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_home/link_mobileDevice', ['link_mobileDevice_nthChild': link_mobileDevice_nthChild, 'link_mobileDevice_internalRoleLinkName': link_mobileDevice_internalRoleLinkName]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_home/link_mobileDevices"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_home/link_mobileDevices', ['link_mobileDevices_nthChild': link_mobileDevices_nthChild, 'link_mobileDevices_internalRoleLinkName': link_mobileDevices_internalRoleLinkName]))
 
-WebUI.takeScreenshot(reportLocation + '/TC4/Step 3-Click on link mobileDevice Apple2 - Navigate to page category pagecategory.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 3-Click on link mobileDevices Apple2 - Navigate to page category pagecategory.png')
 
 "Step 4: Click on button CategoryAddToCart"
 
@@ -43,23 +43,23 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/button_CategoryAd
 
 WebUI.takeScreenshot(reportLocation + '/TC4/Step 4-Click on button CategoryAddToCart.png')
 
-"Step 5: Click on label storageColorOption (256GB)"
+"Step 5: Click on label storageColorOptions (256GB)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category/label_storageColorOption"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/label_storageColorOption', ['label_storageColorOption_for': label_storageColorOption_for, 'label_storageColorOption_internalText': label_storageColorOption_internalText]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category/label_storageColorOptions"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/label_storageColorOptions', ['label_storageColorOptions_for': label_storageColorOptions_for, 'label_storageColorOptions_internalText': label_storageColorOptions_internalText]))
 
-WebUI.takeScreenshot(reportLocation + '/TC4/Step 5-Click on label storageColorOption 256GB.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 5-Click on label storageColorOptions 256GB.png')
 
-"Step 6: Click on label storageColorOption (Green)"
+"Step 6: Click on label storageColorOptions (Green)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category/label_storageColorOption"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/label_storageColorOption', ['label_storageColorOption_for': label_storageColorOption_for_1, 'label_storageColorOption_internalText': label_storageColorOption_internalText_1]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category/label_storageColorOptions"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/label_storageColorOptions', ['label_storageColorOptions_for': label_storageColorOptions_for_1, 'label_storageColorOptions_internalText': label_storageColorOptions_internalText_1]))
 
-WebUI.takeScreenshot(reportLocation + '/TC4/Step 6-Click on label storageColorOption Green.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 6-Click on label storageColorOptions Green.png')
 
 "Step 7: Click on button Buy"
 
@@ -303,7 +303,7 @@ WebUI.takeScreenshot(reportLocation + '/TC4/Step 36-Click on button CompleteOrde
 
 "Step 37: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC4-Purchase Mobile Device with Detailed Shipping Information_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC4-Complete Order for Mobile Devices with Detailed Shipping Info_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

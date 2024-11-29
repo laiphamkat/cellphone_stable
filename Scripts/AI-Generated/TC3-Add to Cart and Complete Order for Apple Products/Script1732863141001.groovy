@@ -1,9 +1,9 @@
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.configuration.RunConfiguration
 import truetest.custom.TrueTestScripts
-import internal.GlobalVariable
-import truetest.common.fillOutCheckoutFormWithAddressDetails
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable
+import truetest.common.fillShippingDetailsAndCompleteOrder
+import com.kms.katalon.core.configuration.RunConfiguration
 
 def reportLocation = RunConfiguration.getReportFolder()
 
@@ -43,23 +43,23 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_product_category_pages/but
 
 WebUI.takeScreenshot(reportLocation + '/TC3/Step 4-Click on button AddToCart.png')
 
-"Step 5: Click on label mobileDeviceModel (iPhone15Pro)"
+"Step 5: Click on label productModels (iPhone15Pro)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product_category_pages/label_mobileDeviceModel"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product_category_pages/label_mobileDeviceModel', ['label_mobileDeviceModel_for': label_mobileDeviceModel_for, 'label_mobileDeviceModel_internalText': label_mobileDeviceModel_internalText]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product_category_pages/label_productModels"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product_category_pages/label_productModels', ['label_productModels_for': label_productModels_for, 'label_productModels_internalText': label_productModels_internalText]))
 
-WebUI.takeScreenshot(reportLocation + '/TC3/Step 5-Click on label mobileDeviceModel iPhone15Pro.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 5-Click on label productModels iPhone15Pro.png')
 
-"Step 6: Click on label mobileDeviceModel (iPhone15ProMax)"
+"Step 6: Click on label productModels (iPhone15ProMax)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product_category_pages/label_mobileDeviceModel"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product_category_pages/label_mobileDeviceModel', ['label_mobileDeviceModel_for': label_mobileDeviceModel_for_1]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product_category_pages/label_productModels"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product_category_pages/label_productModels', ['label_productModels_for': label_productModels_for_1]))
 
-WebUI.takeScreenshot(reportLocation + '/TC3/Step 6-Click on label mobileDeviceModel iPhone15ProMax.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 6-Click on label productModels iPhone15ProMax.png')
 
 "Step 7: Click on button Buy"
 
@@ -93,14 +93,14 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout/link_BackToTheCar
 
 WebUI.takeScreenshot(reportLocation + '/TC3/Step 10-Click on link BackToTheCart - Navigate to page cart pagecart.png')
 
-"Step 11: Click on button cartQuantityAdjustment (CartDecreaseQuantity)"
+"Step 11: Click on button quantityAdjustment (CartDecreaseQuantity)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'cart?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_cart/button_cartQuantityAdjustment"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_cart/button_cartQuantityAdjustment', ['button_cartQuantityAdjustment_class': button_cartQuantityAdjustment_class, 'button_cartQuantityAdjustment_nthChild': button_cartQuantityAdjustment_nthChild]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_cart/button_quantityAdjustment"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_cart/button_quantityAdjustment', ['button_quantityAdjustment_nthChild': button_quantityAdjustment_nthChild, 'button_quantityAdjustment_class': button_quantityAdjustment_class]))
 
-WebUI.takeScreenshot(reportLocation + '/TC3/Step 11-Click on button cartQuantityAdjustment CartDecreaseQuantity.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 11-Click on button quantityAdjustment CartDecreaseQuantity.png')
 
 "Step 12: Click on button ProceedToCheckout -> Navigate to page 'checkout page#checkout/shipping-address'"
 
@@ -206,13 +206,13 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_cart/button_ProceedToCheck
 
 WebUI.takeScreenshot(reportLocation + '/TC3/Step 24-Click on button ProceedToCheckout.png')
 
-"Step 25: Fill out checkout form with personal and address details"
+"Step 25: Fill in shipping details and complete the order"
 
-fillOutCheckoutFormWithAddressDetails.execute(data_path_0, Integer.valueOf(index_0))
+fillShippingDetailsAndCompleteOrder.execute(data_path_0, Integer.valueOf(index_0))
 
 "Step 26: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Add Mobile Device to Cart and Complete Checkout_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Add to Cart and Complete Order for Apple Products_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

@@ -1,9 +1,9 @@
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.configuration.RunConfiguration
 import truetest.custom.TrueTestScripts
-import internal.GlobalVariable
-import truetest.common.fillOutCheckoutFormWithAddressDetails
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable
+import truetest.common.fillShippingDetailsAndCompleteOrder
+import com.kms.katalon.core.configuration.RunConfiguration
 
 def reportLocation = RunConfiguration.getReportFolder()
 
@@ -52,14 +52,14 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/la
 
 WebUI.takeScreenshot(reportLocation + '/TC2/Step 5-Click on label productName ProductIPhone15Plus.png')
 
-"Step 6: Click on button purchaseAction (Buy2)"
+"Step 6: Click on button purchaseOptions (Buy2)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/button_purchaseAction"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_purchaseAction', ['button_purchaseAction_internalRoleButtonName': button_purchaseAction_internalRoleButtonName]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/button_purchaseOptions"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_purchaseOptions', ['button_purchaseOptions_internalRoleButtonName': button_purchaseOptions_internalRoleButtonName]))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 6-Click on button purchaseAction Buy2.png')
+WebUI.takeScreenshot(reportLocation + '/TC2/Step 6-Click on button purchaseOptions Buy2.png')
 
 "Step 7: Click on link PlaceAnOrder -> Navigate to page 'cart page#cart'"
 
@@ -125,23 +125,23 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout/link_BackToTheCar
 
 WebUI.takeScreenshot(reportLocation + '/TC2/Step 14-Click on link BackToTheCart - Navigate to page cart pagecart.png')
 
-"Step 15: Click on button cartQuantityAdjustment (IncreaseQuantity)"
+"Step 15: Click on button quantityAdjustment (IncreaseQuantity)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'cart?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_cart/button_cartQuantityAdjustment"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_cart/button_cartQuantityAdjustment', ['button_cartQuantityAdjustment_class': button_cartQuantityAdjustment_class, 'button_cartQuantityAdjustment_nthChild': button_cartQuantityAdjustment_nthChild]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_cart/button_quantityAdjustment"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_cart/button_quantityAdjustment', ['button_quantityAdjustment_nthChild': button_quantityAdjustment_nthChild, 'button_quantityAdjustment_class': button_quantityAdjustment_class]))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 15-Click on button cartQuantityAdjustment IncreaseQuantity.png')
+WebUI.takeScreenshot(reportLocation + '/TC2/Step 15-Click on button quantityAdjustment IncreaseQuantity.png')
 
-"Step 16: Click on button cartQuantityAdjustment (IncreaseQuantity)"
+"Step 16: Click on button quantityAdjustment (IncreaseQuantity)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'cart?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_cart/button_cartQuantityAdjustment"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_cart/button_cartQuantityAdjustment', ['button_cartQuantityAdjustment_class': button_cartQuantityAdjustment_class_1, 'button_cartQuantityAdjustment_nthChild': button_cartQuantityAdjustment_nthChild_1]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_cart/button_quantityAdjustment"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_cart/button_quantityAdjustment', ['button_quantityAdjustment_nthChild': button_quantityAdjustment_nthChild_1, 'button_quantityAdjustment_class': button_quantityAdjustment_class_1]))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 16-Click on button cartQuantityAdjustment IncreaseQuantity.png')
+WebUI.takeScreenshot(reportLocation + '/TC2/Step 16-Click on button quantityAdjustment IncreaseQuantity.png')
 
 "Step 17: Click on button ProceedToCheckout"
 
@@ -151,13 +151,13 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_cart/button_ProceedToCheck
 
 WebUI.takeScreenshot(reportLocation + '/TC2/Step 17-Click on button ProceedToCheckout.png')
 
-"Step 18: Fill out checkout form with personal and address details"
+"Step 18: Fill in shipping details and complete the order"
 
-fillOutCheckoutFormWithAddressDetails.execute(data_path_0, Integer.valueOf(index_0))
+fillShippingDetailsAndCompleteOrder.execute(data_path_0, Integer.valueOf(index_0))
 
 "Step 19: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Purchase Apple Product and Adjust Cart Quantity_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Purchase iPhone 15 Case with Quantity Adjustment_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
