@@ -1,0 +1,23 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Hover over item object",
+        "step 3: Click on link Apple -> Navigate to page 'iphone cases category#*/*'",
+        "step 4: Click on button AddToCart",
+        "step 5: Click on button cartAction (AddToCart2)",
+        "step 6: Click on button cartAction (BuyNow)",
+        "step 7: Click on label productModel (iPhone15Plus)",
+        "step 8: Click on label productModel (Cypress)",
+        "step 9: Click on button quantityAction (IncreaseQuantity)",
+        "step 10: Click on button quantityAction (IncreaseQuantity)",
+        "step 11: Click on button quantityAction (Buy)",
+        "step 12: Click on link PlaceOrder -> Navigate to page 'cart page#cart'",
+        "step 13: Click on button cartQuantityAction (IncreaseQuantity)",
+        "step 14: Click on button cartQuantityAction (IncreaseQuantity)",
+        "step 15: Click on button cartQuantityAction (CartDecreaseQuantity)",
+        "step 16: Click on button cartQuantityAction (CartDecreaseQuantity)",
+        "step 17: Click on button cartQuantityAction (DecreaseQuantity)",
+        "step 18: Click on input Quantity -> Navigate to page ''",
+        "step 19: Take full page screenshot as checkpoint"
+    ]
+}

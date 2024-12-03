@@ -34,7 +34,7 @@
         <name>name</name>
         <type>Main</type>
         <value>payment_method_id</value>
-        <webElementGuid>f4becf24-9473-4f84-9098-541df7d9c228</webElementGuid>
+        <webElementGuid>be90ce92-1974-48e0-881b-7b328fa41fe5</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,6 +42,6 @@
         <name>type</name>
         <type>Main</type>
         <value>radio</value>
-        <webElementGuid>f4becf24-9473-4f84-9098-541df7d9c228</webElementGuid>
+        <webElementGuid>be90ce92-1974-48e0-881b-7b328fa41fe5</webElementGuid>
     </webElementProperties>
 </WebElementEntity>
