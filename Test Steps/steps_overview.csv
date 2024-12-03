@@ -1,0 +1,47 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+1,Complete Checkout Process with Cash on Delivery Payment,"Navigate through product categories, select items, and add to cart. Fill in shipping details and choose cash on delivery. Complete the order and verify the thank you page.","Step 1: Navigate to category/*
+Step 2: Click on label NaturalTitanium
+Step 3: Click on input NumberSpinner
+Step 4: Enter input value in input NumberSpinner
+Step 5: Click on button Buy
+Step 6: Click on list HotNewProducts
+Step 7: Click on link Accessories -> Navigate to page 'accessories category#*/*'
+Step 8: Click on link GoToCart -> Navigate to page 'cart page#cart'
+Step 9: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'
+Step 10: Hover over div object
+Step 11: Click on input Email
+Step 12: Enter input value in input Email
+Step 13: Click on input ReceiveMarketingInfo
+Step 14: Click on button ContinueToShipping -> Navigate to page 'checkout page#checkout/shipping-address'
+Step 15: Hover over div CheckoutInfo
+Step 16: Click on input FirstName
+Step 17: Hover over div CheckoutInfo2
+Step 18: Enter input value in input FirstName
+Step 19: Click on input LastName
+Step 20: Hover over div CheckoutInfo3
+Step 21: Enter input value in input LastName
+Step 22: Click on input Address
+Step 23: Hover over div CheckoutInfo4
+Step 24: Enter input value in input Address
+Step 25: Click on input ZipCode
+Step 26: Hover over div CheckoutInfo5
+Step 27: Enter input value in input ZipCode
+Step 28: Click on input City
+Step 29: Hover over div CheckoutInfo6
+Step 30: Enter input value in input City
+Step 31: Click on input State
+Step 32: Hover over div CheckoutInfo7
+Step 33: Enter input value in input State
+Step 34: Click on input Phone
+Step 35: Enter input value in input Phone
+Step 36: Click on button ContinueToPayment
+Step 37: Click on div ContinueToPayment -> Navigate to page 'checkout page#checkout/payment'
+Step 38: Click on input CashOnDelivery
+Step 39: Click on span CashOnDelivery
+Step 40: Click on input CashOnDelivery
+Step 41: Click on input CashOnDelivery
+Step 42: Click on span CashOnDelivery
+Step 43: Click on input CashOnDelivery
+Step 44: Click on button CompleteOrder -> Navigate to page 'thank you page#thank-you/*'
+Step 45: Take full page screenshot as checkpoint
+",High,NEW
