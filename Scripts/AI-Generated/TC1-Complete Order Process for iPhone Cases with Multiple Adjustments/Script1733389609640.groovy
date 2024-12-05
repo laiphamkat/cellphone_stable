@@ -1,8 +1,8 @@
-import internal.GlobalVariable
-import truetest.custom.TrueTestScripts
-import com.kms.katalon.core.configuration.RunConfiguration
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import truetest.custom.TrueTestScripts
+import internal.GlobalVariable
 
 def reportLocation = RunConfiguration.getReportFolder()
 
@@ -34,31 +34,31 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_Apple'))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 3-Click on link Apple - Navigate to page iphone cases category.png')
 
-"Step 4: Click on button BuyNow"
+"Step 4: Click on button AddToCart"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_iphone_cases_category/button_BuyNow'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_iphone_cases_category/button_AddToCart'))
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 4-Click on button BuyNow.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 4-Click on button AddToCart.png')
 
-"Step 5: Click on label caseModels (iPhone15Plus)"
-
-// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
-
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_iphone_cases_category/label_caseModels"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_iphone_cases_category/label_caseModels', ['label_caseModels_for': label_caseModels_for, 'label_caseModels_internalText': label_caseModels_internalText]))
-
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 5-Click on label caseModels iPhone15Plus.png')
-
-"Step 6: Click on label caseModels (Cypress)"
+"Step 5: Click on label iphoneModel (iPhone15Plus)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_iphone_cases_category/label_caseModels"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_iphone_cases_category/label_caseModels', ['label_caseModels_for': label_caseModels_for_1, 'label_caseModels_internalText': label_caseModels_internalText_1]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_iphone_cases_category/label_iphoneModel"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_iphone_cases_category/label_iphoneModel', ['label_iphoneModel_for': label_iphoneModel_for, 'label_iphoneModel_internalText': label_iphoneModel_internalText]))
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 6-Click on label caseModels Cypress.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 5-Click on label iphoneModel iPhone15Plus.png')
+
+"Step 6: Click on label iphoneModel (Cypress)"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_iphone_cases_category/label_iphoneModel"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_iphone_cases_category/label_iphoneModel', ['label_iphoneModel_for': label_iphoneModel_for_1, 'label_iphoneModel_internalText': label_iphoneModel_internalText_1]))
+
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 6-Click on label iphoneModel Cypress.png')
 
 "Step 7: Click on button Buy"
 
@@ -68,31 +68,31 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_iphone_cases_category/butt
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 7-Click on button Buy.png')
 
-"Step 8: Click on link PlaceAnOrder -> Navigate to page 'cart page#cart'"
+"Step 8: Click on link PlaceOrder -> Navigate to page 'cart page#cart'"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_iphone_cases_category/link_PlaceAnOrder'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_iphone_cases_category/link_PlaceOrder'))
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 8-Click on link PlaceAnOrder - Navigate to page cart pagecart.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 8-Click on link PlaceOrder - Navigate to page cart pagecart.png')
 
-"Step 9: Click on button cartAction (Add)"
-
-// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'cart?/?(?:#.*)?(?:\\?.*)?$', true)
-
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_cart/button_cartAction"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_cart/button_cartAction', ['button_cartAction_nthChild': button_cartAction_nthChild, 'button_cartAction_internalRoleButtonName': button_cartAction_internalRoleButtonName]))
-
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 9-Click on button cartAction Add.png')
-
-"Step 10: Click on button cartAction (Remove)"
+"Step 9: Click on button quantityAdjustment (IncreaseQuantity)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'cart?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_cart/button_cartAction"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_cart/button_cartAction', ['button_cartAction_nthChild': button_cartAction_nthChild_1, 'button_cartAction_internalRoleButtonName': button_cartAction_internalRoleButtonName_1]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_cart/button_quantityAdjustment"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_cart/button_quantityAdjustment', ['button_quantityAdjustment_nthChild': button_quantityAdjustment_nthChild, 'button_quantityAdjustment_internalRoleButtonName': button_quantityAdjustment_internalRoleButtonName]))
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 10-Click on button cartAction Remove.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 9-Click on button quantityAdjustment IncreaseQuantity.png')
+
+"Step 10: Click on button quantityAdjustment (DecreaseQuantity)"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'cart?/?(?:#.*)?(?:\\?.*)?$', true)
+
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_cart/button_quantityAdjustment"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_cart/button_quantityAdjustment', ['button_quantityAdjustment_nthChild': button_quantityAdjustment_nthChild_1, 'button_quantityAdjustment_internalRoleButtonName': button_quantityAdjustment_internalRoleButtonName_1]))
+
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 10-Click on button quantityAdjustment DecreaseQuantity.png')
 
 "Step 11: Hover over item CartItem"
 
@@ -110,31 +110,31 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_cart/link_Apple'))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 12-Click on link Apple - Navigate to page iphone cases category.png')
 
-"Step 13: Click on button BuyNow2"
+"Step 13: Click on button AddToCart"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_iphone_cases_category/button_BuyNow2'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_iphone_cases_category/button_AddToCart'))
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 13-Click on button BuyNow2.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 13-Click on button AddToCart.png')
 
-"Step 14: Click on label caseModels (Cypress)"
-
-// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
-
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_iphone_cases_category/label_caseModels"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_iphone_cases_category/label_caseModels', ['label_caseModels_for': label_caseModels_for_2, 'label_caseModels_internalText': label_caseModels_internalText_2]))
-
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 14-Click on label caseModels Cypress.png')
-
-"Step 15: Click on label caseModels (iPhone15)"
+"Step 14: Click on label iphoneModel (Cypress)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_iphone_cases_category/label_caseModels"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_iphone_cases_category/label_caseModels', ['label_caseModels_for': label_caseModels_for_3]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_iphone_cases_category/label_iphoneModel"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_iphone_cases_category/label_iphoneModel', ['label_iphoneModel_for': label_iphoneModel_for_2, 'label_iphoneModel_internalText': label_iphoneModel_internalText_2]))
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 15-Click on label caseModels iPhone15.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 14-Click on label iphoneModel Cypress.png')
+
+"Step 15: Click on label iphoneModel (iPhone15)"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_iphone_cases_category/label_iphoneModel"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_iphone_cases_category/label_iphoneModel', ['label_iphoneModel_for': label_iphoneModel_for_3]))
+
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 15-Click on label iphoneModel iPhone15.png')
 
 "Step 16: Click on button Buy"
 
@@ -144,13 +144,13 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_iphone_cases_category/butt
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 16-Click on button Buy.png')
 
-"Step 17: Click on link PlaceAnOrder -> Navigate to page 'cart page#cart'"
+"Step 17: Click on link PlaceOrder -> Navigate to page 'cart page#cart'"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_iphone_cases_category/link_PlaceAnOrder'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_iphone_cases_category/link_PlaceOrder'))
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 17-Click on link PlaceAnOrder - Navigate to page cart pagecart.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 17-Click on link PlaceOrder - Navigate to page cart pagecart.png')
 
 "Step 18: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'"
 
@@ -176,13 +176,13 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_info/input_Email'
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 20-Click on input Email.png')
 
-"Step 21: Enter input value in input Email2"
+"Step 21: Enter input value in input Email"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'checkout/info?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.setText(findTestObject('AI-Generated/Page_checkout_info/input_Email2'), input_Email2)
+WebUI.setText(findTestObject('AI-Generated/Page_checkout_info/input_Email'), input_Email)
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 21-Enter input value in input Email2.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 21-Enter input value in input Email.png')
 
 "Step 22: Click on button ContinueToShipping -> Navigate to page 'checkout page#checkout/shipping-address'"
 
@@ -216,13 +216,13 @@ WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout/div_CheckoutInfo2'))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 25-Hover over div CheckoutInfo2.png')
 
-"Step 26: Enter input value in input FirstName2"
+"Step 26: Enter input value in input FirstName"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.setText(findTestObject('AI-Generated/Page_checkout/input_FirstName2'), input_FirstName2)
+WebUI.setText(findTestObject('AI-Generated/Page_checkout/input_FirstName'), input_FirstName)
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 26-Enter input value in input FirstName2.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 26-Enter input value in input FirstName.png')
 
 "Step 27: Click on input LastName"
 
@@ -240,13 +240,13 @@ WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout/div_CheckoutInfo3'))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 28-Hover over div CheckoutInfo3.png')
 
-"Step 29: Enter input value in input LastName2"
+"Step 29: Enter input value in input LastName"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.setText(findTestObject('AI-Generated/Page_checkout/input_LastName2'), input_LastName2)
+WebUI.setText(findTestObject('AI-Generated/Page_checkout/input_LastName'), input_LastName)
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 29-Enter input value in input LastName2.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 29-Enter input value in input LastName.png')
 
 "Step 30: Click on input Address"
 
@@ -264,13 +264,13 @@ WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout/div_CheckoutInfo4'))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 31-Hover over div CheckoutInfo4.png')
 
-"Step 32: Enter input value in input Address2"
+"Step 32: Enter input value in input Address"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.setText(findTestObject('AI-Generated/Page_checkout/input_Address2'), input_Address2)
+WebUI.setText(findTestObject('AI-Generated/Page_checkout/input_Address'), input_Address)
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 32-Enter input value in input Address2.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 32-Enter input value in input Address.png')
 
 "Step 33: Click on input ZipCode"
 
@@ -288,13 +288,13 @@ WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout/div_CheckoutInfo5'))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 34-Hover over div CheckoutInfo5.png')
 
-"Step 35: Enter input value in input ZipCode2"
+"Step 35: Enter input value in input ZipCode"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.setText(findTestObject('AI-Generated/Page_checkout/input_ZipCode2'), input_ZipCode2)
+WebUI.setText(findTestObject('AI-Generated/Page_checkout/input_ZipCode'), input_ZipCode)
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 35-Enter input value in input ZipCode2.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 35-Enter input value in input ZipCode.png')
 
 "Step 36: Click on input City"
 
@@ -312,13 +312,13 @@ WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout/div_CheckoutInfo6'))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 37-Hover over div CheckoutInfo6.png')
 
-"Step 38: Enter input value in input City2"
+"Step 38: Enter input value in input City"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.setText(findTestObject('AI-Generated/Page_checkout/input_City2'), input_City2)
+WebUI.setText(findTestObject('AI-Generated/Page_checkout/input_City'), input_City)
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 38-Enter input value in input City2.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 38-Enter input value in input City.png')
 
 "Step 39: Click on input State"
 
@@ -336,13 +336,13 @@ WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout/div_CheckoutInfo7'))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 40-Hover over div CheckoutInfo7.png')
 
-"Step 41: Enter input value in input State2"
+"Step 41: Enter input value in input State"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.setText(findTestObject('AI-Generated/Page_checkout/input_State2'), input_State2)
+WebUI.setText(findTestObject('AI-Generated/Page_checkout/input_State'), input_State)
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 41-Enter input value in input State2.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 41-Enter input value in input State.png')
 
 "Step 42: Click on input Phone"
 
@@ -352,13 +352,13 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout/input_Phone'))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 42-Click on input Phone.png')
 
-"Step 43: Enter input value in input Phone2"
+"Step 43: Enter input value in input Phone"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.setText(findTestObject('AI-Generated/Page_checkout/input_Phone2'), input_Phone2)
+WebUI.setText(findTestObject('AI-Generated/Page_checkout/input_Phone'), input_Phone)
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 43-Enter input value in input Phone2.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 43-Enter input value in input Phone.png')
 
 "Step 44: Click on button ContinueToPayment -> Navigate to page 'checkout page#checkout/payment'"
 
@@ -378,7 +378,7 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 45-Click on button CompleteOrde
 
 "Step 46: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Complete Purchase Flow for iPhone Cases with User Information_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Complete Order Process for iPhone Cases with Multiple Adjustments_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
