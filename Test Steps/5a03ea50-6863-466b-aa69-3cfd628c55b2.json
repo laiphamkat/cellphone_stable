@@ -1,0 +1,21 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Hover over item object",
+        "step 3: Click on link mobileBrands (Samsung2) -> Navigate to page 'category page#category/*'",
+        "step 4: Click on link smartviewCases (SamsungGalaxyZFold5) -> Navigate to page 'product page#product/*'",
+        "step 5: Click on label storageColorOption (512GB)",
+        "step 6: Click on label storageColorOption (Blue)",
+        "step 7: Click on button purchase (Increased3)",
+        "step 8: Click on button purchase (Buy2)",
+        "step 9: Click on link PlaceAnOrder -> Navigate to page 'cart page#cart'",
+        "step 10: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'",
+        "step 11: Click on div EmailNewsOffers",
+        "step 12: Hover over div object",
+        "step 13: Click on input Email",
+        "step 14: Enter input value in input Email",
+        "step 15: Click on button ContinueToShipping",
+        "step 16: Fill out checkout form with personal and address information",
+        "step 17: Take full page screenshot as checkpoint"
+    ]
+}
