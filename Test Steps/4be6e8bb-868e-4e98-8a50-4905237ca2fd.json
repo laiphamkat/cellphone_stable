@@ -1,0 +1,19 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on button AddToCart",
+        "step 3: Click on label colorStorageOption (512GB)",
+        "step 4: Click on label colorStorageOption (Yellow)",
+        "step 5: Click on button purchaseAction (Increased)",
+        "step 6: Click on button purchaseAction (Increased)",
+        "step 7: Click on button purchaseAction (Buy)",
+        "step 8: Click on link Phone -> Navigate to page 'phone category#*/*'",
+        "step 9: Click on link Twitter",
+        "step 10: Click on link ContactNumber",
+        "step 11: Click on link About -> Navigate to page '/about'",
+        "step 12: Click on link Address -> Navigate to page 'checkout info#checkout/info'",
+        "step 13: Hover over div object",
+        "step 14: Click on input Email -> Navigate to page ''",
+        "step 15: Take full page screenshot as checkpoint"
+    ]
+}

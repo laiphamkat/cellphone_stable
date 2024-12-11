@@ -1,0 +1,63 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+2,Verify Navigation from Cart to Apple Category Page,Navigate to the cart and click on the Apple category link. Verify that the category page loads correctly.,"Step 1: Navigate to cart
+Step 2: Click on link Apple -> Navigate to page 'category page#category/*'
+Step 3: Take full page screenshot as checkpoint
+",High,NEW
+3,Verify Product Page for iPhone 15 New,"Navigate to the homepage, select the Apple link, and click on the iPhone 15 New product. Verify that the product page displays correctly.","Step 1: Navigate to /
+Step 2: Hover over item object2
+Step 3: Click on link Apple2 -> Navigate to page 'category page#category/*'
+Step 4: Click on link iPhone15New -> Navigate to page 'product page#product/*'
+Step 5: Take full page screenshot as checkpoint
+",High,NEW
+1,Complete Checkout Process for Apple iPhone Cases,"Navigate to the homepage, select an iPhone case, and add it to the cart. Fill in shipping details and complete the order, then verify the thank you page.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link Apple -> Navigate to page 'iphone cases category#*/*'
+Step 4: Click on button AddToCart
+Step 5: Click on link PlaceOrder -> Navigate to page 'cart page#cart'
+Step 6: Click on link GoToCart
+Step 7: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'
+Step 8: Hover over div object
+Step 9: Click on input Email
+Step 10: Enter input value in input Email
+Step 11: Click on button ContinueToShipping -> Navigate to page 'checkout page#checkout/shipping-address'
+Step 12: Hover over div CheckoutInfo
+Step 13: Click on input FirstName
+Step 14: Hover over div CheckoutInfo2
+Step 15: Enter input value in input FirstName
+Step 16: Click on input LastName
+Step 17: Hover over div CheckoutInfo3
+Step 18: Enter input value in input LastName
+Step 19: Click on input Address
+Step 20: Hover over div CheckoutInfo4
+Step 21: Enter input value in input Address
+Step 22: Click on input ZipCode
+Step 23: Hover over div CheckoutInfo5
+Step 24: Enter input value in input ZipCode
+Step 25: Click on input City
+Step 26: Hover over div CheckoutInfo6
+Step 27: Enter input value in input City
+Step 28: Click on input State
+Step 29: Hover over div CheckoutInfo7
+Step 30: Enter input value in input State
+Step 31: Click on input Phone
+Step 32: Enter input value in input Phone
+Step 33: Click on button ContinueToPayment -> Navigate to page 'checkout page#checkout/payment'
+Step 34: Click on button CompleteOrder -> Navigate to page 'thank you page#thank-you/*'
+Step 35: Take full page screenshot as checkpoint
+",Medium,NEW
+4,Test Multiple Actions Including Purchase and Navigation,"Navigate to the homepage, add a product to the cart, and perform various actions including changing options and verifying navigation to different pages.","Step 1: Navigate to /
+Step 2: Click on button AddToCart
+Step 3: Click on label colorStorageOption (512GB)
+Step 4: Click on label colorStorageOption (Yellow)
+Step 5: Click on button purchaseAction (Increased)
+Step 6: Click on button purchaseAction (Increased)
+Step 7: Click on button purchaseAction (Buy)
+Step 8: Click on link Phone -> Navigate to page 'phone category#*/*'
+Step 9: Click on link Twitter
+Step 10: Click on link ContactNumber
+Step 11: Click on link About -> Navigate to page '/about'
+Step 12: Click on link Address -> Navigate to page 'checkout info#checkout/info'
+Step 13: Hover over div object
+Step 14: Click on input Email -> Navigate to page ''
+Step 15: Take full page screenshot as checkpoint
+",Trivial,NEW
