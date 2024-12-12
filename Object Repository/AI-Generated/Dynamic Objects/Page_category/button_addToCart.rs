@@ -34,7 +34,7 @@
         <name>text</name>
         <type>Main</type>
         <value></value>
-        <webElementGuid>6f3b0fd5-7c9a-4008-98ea-def77dfb5161</webElementGuid>
+        <webElementGuid>e93e454b-8400-4b61-9c77-24208d49a51d</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
         <name>title</name>
         <type>Main</type>
         <value>Add to cart</value>
-        <webElementGuid>6f3b0fd5-7c9a-4008-98ea-def77dfb5161</webElementGuid>
+        <webElementGuid>e93e454b-8400-4b61-9c77-24208d49a51d</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -50,6 +50,6 @@
         <name>type</name>
         <type>Main</type>
         <value>button</value>
-        <webElementGuid>6f3b0fd5-7c9a-4008-98ea-def77dfb5161</webElementGuid>
+        <webElementGuid>e93e454b-8400-4b61-9c77-24208d49a51d</webElementGuid>
     </webElementProperties>
 </WebElementEntity>
