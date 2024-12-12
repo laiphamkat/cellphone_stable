@@ -34,6 +34,6 @@
         <name>text</name>
         <type>Main</type>
         <value>Proceed to checkout</value>
-        <webElementGuid>e93e454b-8400-4b61-9c77-24208d49a51d</webElementGuid>
+        <webElementGuid>edcc54ce-cd7d-4260-b9b5-cff365768771</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

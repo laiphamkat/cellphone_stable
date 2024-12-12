@@ -1,0 +1,20 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+1,Test Purchase Flow with Incrementing Cart Items,"Navigate to product page, buy an item, increment cart quantity, and proceed to checkout. Fill in email and verify the checkout page.","Step 1: Navigate to product/*
+Step 2: Click on buyButton
+Step 3: Click on cartItemCount -> Navigate to page 'cart page#cart'
+Step 4: Click on incrementButton
+Step 5: Hover over link cart (Cart)
+Step 6: Click on link cart (Cart2)
+Step 7: Click on link cart (Cart2)
+Step 8: Hover over link cart (Cart)
+Step 9: Click on link cart (Cart2)
+Step 10: Click on link cart (Cart2)
+Step 11: Click on proceedToCheckoutButton -> Navigate to page 'checkout info#checkout/info'
+Step 12: Hover over div object
+Step 13: Click on emailInputField
+Step 14: Enter input value in emailInputField
+Step 15: Click on continueToShippingButton
+Step 16: Enter input value in emailInputField
+Step 17: Click on continueToShippingButton -> Navigate to page 'checkout page#checkout/shipping-address'
+Step 18: Take full page screenshot as checkpoint
+",High,NEW

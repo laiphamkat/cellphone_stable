@@ -1,0 +1,22 @@
+{
+    "steps": [
+        "step 1: Navigate to product/*",
+        "step 2: Click on buyButton",
+        "step 3: Click on cartItemCount -> Navigate to page 'cart page#cart'",
+        "step 4: Click on incrementButton",
+        "step 5: Hover over link cart (Cart)",
+        "step 6: Click on link cart (Cart2)",
+        "step 7: Click on link cart (Cart2)",
+        "step 8: Hover over link cart (Cart)",
+        "step 9: Click on link cart (Cart2)",
+        "step 10: Click on link cart (Cart2)",
+        "step 11: Click on proceedToCheckoutButton -> Navigate to page 'checkout info#checkout/info'",
+        "step 12: Hover over div object",
+        "step 13: Click on emailInputField",
+        "step 14: Enter input value in emailInputField",
+        "step 15: Click on continueToShippingButton",
+        "step 16: Enter input value in emailInputField",
+        "step 17: Click on continueToShippingButton -> Navigate to page 'checkout page#checkout/shipping-address'",
+        "step 18: Take full page screenshot as checkpoint"
+    ]
+}
