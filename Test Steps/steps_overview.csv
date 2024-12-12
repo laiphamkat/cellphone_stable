@@ -1,0 +1,48 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+1,Complete Purchase Workflow for Apple Product with Custom Storage Options,"Navigate to the homepage, select an Apple product, customize storage, and add to cart. Proceed through checkout, entering shipping and payment information, and verify the thank you page.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on appleMenuItem -> Navigate to page 'category page#category/*'
+Step 4: Click on button addToCart (addToCartButton)
+Step 5: Click on label storageOption256GB (storageOption256GB)
+Step 6: Click on label storageOption256GB (storageOption256GB2)
+Step 7: Click on button increaseQuantity (increaseButton)
+Step 8: Click on button increaseQuantity (increaseButton)
+Step 9: Click on button increaseQuantity (increaseButton2)
+Step 10: Click on button addToCart (addToCartButton2)
+Step 11: Click on label storageOption256GB (storageOption256GB3)
+Step 12: Click on label storageOption256GB (storageOption256GB4)
+Step 13: Click on button increaseQuantity (increaseButton)
+Step 14: Click on button increaseQuantity (increaseButton2)
+Step 15: Click on placeOrderButton -> Navigate to page 'cart page#cart'
+Step 16: Click on button incrementQuantity (incrementButton)
+Step 17: Click on button incrementQuantity (incrementButton2)
+Step 18: Click on proceedToCheckoutButton -> Navigate to page 'checkout info#checkout/info'
+Step 19: Hover over div object
+Step 20: Click on emailInputField
+Step 21: Enter input value in emailInputField
+Step 22: Click on continueToShippingButton -> Navigate to page 'checkout page#checkout/shipping-address'
+Step 23: Hover over div CheckoutInfo
+Step 24: Click on firstNameInput
+Step 25: Hover over div CheckoutInfo2
+Step 26: Enter input value in firstNameInput
+Step 27: Click on lastNameInput
+Step 28: Hover over div CheckoutInfo3
+Step 29: Enter input value in lastNameInput
+Step 30: Click on addressInputField
+Step 31: Hover over div CheckoutInfo4
+Step 32: Enter input value in addressInputField
+Step 33: Click on zipCodeInput
+Step 34: Hover over div CheckoutInfo5
+Step 35: Enter input value in zipCodeInput
+Step 36: Click on cityInput
+Step 37: Hover over div CheckoutInfo6
+Step 38: Enter input value in cityInput
+Step 39: Click on stateInputField
+Step 40: Hover over div CheckoutInfo7
+Step 41: Enter input value in stateInputField
+Step 42: Click on userPhoneInput
+Step 43: Enter input value in userPhoneInput
+Step 44: Click on continueToPaymentButton -> Navigate to page 'checkout page#checkout/payment'
+Step 45: Click on completeOrderButton -> Navigate to page 'thank you page#thank-you/*'
+Step 46: Take full page screenshot as checkpoint
+",High,NEW
