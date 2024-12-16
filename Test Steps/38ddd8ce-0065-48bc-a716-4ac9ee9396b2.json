@@ -1,0 +1,29 @@
+{
+    "steps": [
+        "step 1: Navigate to category/*",
+        "step 2: Click on addToCartButton",
+        "step 3: Click on label productAttributes (StorageCapacity)",
+        "step 4: Click on label productAttributes (Color)",
+        "step 5: Click on button purchaseActions (Increased)",
+        "step 6: Click on button purchaseActions (Buy)",
+        "step 7: Click on cartItemCount -> Navigate to page 'cart page#cart'",
+        "step 8: Click on proceedToCheckoutButton -> Navigate to page 'checkout page#checkout/shipping-address'",
+        "step 9: Click on firstNameInput",
+        "step 10: Enter input value in firstNameInput",
+        "step 11: Click on lastNameInput",
+        "step 12: Enter input value in lastNameInput",
+        "step 13: Click on addressInputField",
+        "step 14: Enter input value in addressInputField",
+        "step 15: Click on zipCodeInput",
+        "step 16: Enter input value in zipCodeInput",
+        "step 17: Click on cityInput",
+        "step 18: Enter input value in cityInput",
+        "step 19: Click on stateInputField",
+        "step 20: Enter input value in stateInputField",
+        "step 21: Click on userPhoneInput",
+        "step 22: Enter input value in userPhoneInput",
+        "step 23: Click on continueToPaymentButton -> Navigate to page 'checkout page#checkout/payment'",
+        "step 24: Click on completeOrderButton -> Navigate to page 'thank you page#thank-you/*'",
+        "step 25: Take full page screenshot as checkpoint"
+    ]
+}
