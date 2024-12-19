@@ -1,9 +1,0 @@
-{
-    "steps": [
-        "step 1: Navigate to /",
-        "step 2: Browse brand categories and add item to cart",
-        "step 3: Click on link cartNavigation (GoToCart) -> Navigate to page 'cart page#cart'",
-        "step 4: Click on button proceed to checkout -> Navigate to page 'checkout page#checkout/shipping-address'",
-        "step 5: Take full page screenshot as checkpoint"
-    ]
-}
