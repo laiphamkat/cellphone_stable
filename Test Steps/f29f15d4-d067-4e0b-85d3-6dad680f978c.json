@@ -1,0 +1,9 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Navigate to category and add item to cart",
+        "step 3: Go to cart and proceed to checkout",
+        "step 4: Complete order after filling shipping details",
+        "step 5: Take full page screenshot as checkpoint"
+    ]
+}

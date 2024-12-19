@@ -1,0 +1,17 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Add item to cart from category with options",
+        "step 3: Click on link GoToCart4 -> Navigate to page 'cart page#cart'",
+        "step 4: Click on button proceed to checkout -> Navigate to page 'checkout info#checkout/info'",
+        "step 5: Click on emailInputField",
+        "step 6: Enter input value in emailInputField",
+        "step 7: Click on continueToShippingButton",
+        "step 8: Click on emailInputField",
+        "step 9: Enter input value in emailInputField",
+        "step 10: Click on continueToShippingButton",
+        "step 11: Fill in shipping information for checkout",
+        "step 12: Click on progressbar loadingLine -> Navigate to page ''",
+        "step 13: Take full page screenshot as checkpoint"
+    ]
+}

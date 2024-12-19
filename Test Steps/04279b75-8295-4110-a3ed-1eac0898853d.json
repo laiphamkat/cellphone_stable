@@ -1,0 +1,14 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Navigate to category and add item to cart",
+        "step 3: Click on button action (Buy)",
+        "step 4: Go to cart and proceed to checkout",
+        "step 5: Click on firstNameInput",
+        "step 6: Enter input value in firstNameInput",
+        "step 7: Click on lastNameInput",
+        "step 8: Enter input value in lastNameInput",
+        "step 9: Click on backToCartLink -> Navigate to page 'cart page#cart'",
+        "step 10: Take full page screenshot as checkpoint"
+    ]
+}

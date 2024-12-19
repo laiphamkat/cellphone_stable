@@ -34,7 +34,7 @@
         <name>text</name>
         <type>Main</type>
         <value>Contact Info</value>
-        <webElementGuid>cdaa6fc5-6dc8-46e9-b3f3-261fcb5f10a9</webElementGuid>
+        <webElementGuid>1778fa05-73cf-423a-899e-304c25c174b5</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,6 +42,6 @@
         <name>type</name>
         <type>Main</type>
         <value>button</value>
-        <webElementGuid>cdaa6fc5-6dc8-46e9-b3f3-261fcb5f10a9</webElementGuid>
+        <webElementGuid>1778fa05-73cf-423a-899e-304c25c174b5</webElementGuid>
     </webElementProperties>
 </WebElementEntity>
