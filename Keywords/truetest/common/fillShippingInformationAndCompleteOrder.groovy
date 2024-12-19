@@ -3,104 +3,76 @@ package truetest.common
 import com.kms.katalon.core.testdata.TestData as TestData
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 public class fillShippingInformationAndCompleteOrder {
     
     private static def execute_functional_method(Map data) {
         
-        "Step 1: Hover over div object"
+        "Step 1: Click on input FirstName"
         
-        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_page/div_object'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout/input_FirstName'))
         
-        "Step 2: Click on input FirstName"
+        "Step 2: Enter input value in input FirstName"
         
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_page/input_FirstName'))
+        WebUI.setText(findTestObject('AI-Generated/Page_checkout/input_FirstName'), data['input_FirstName'])
         
-        "Step 3: Hover over div object2"
+        "Step 3: Click on input LastName"
         
-        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_page/div_object2'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout/input_LastName'))
         
-        "Step 4: Enter input value in input FirstName"
+        "Step 4: Enter input value in input LastName"
         
-        WebUI.setText(findTestObject('AI-Generated/Page_checkout_page/input_FirstName'), data['input_FirstName'])
+        WebUI.setText(findTestObject('AI-Generated/Page_checkout/input_LastName'), data['input_LastName'])
         
-        "Step 5: Click on input LastName"
+        "Step 5: Click on input Address"
         
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_page/input_LastName'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout/input_Address'))
         
-        "Step 6: Hover over div object3"
+        "Step 6: Enter input value in input Address"
         
-        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_page/div_object3'))
+        WebUI.setText(findTestObject('AI-Generated/Page_checkout/input_Address'), data['input_Address'])
         
-        "Step 7: Enter input value in input LastName"
+        "Step 7: Click on input ZipCode"
         
-        WebUI.setText(findTestObject('AI-Generated/Page_checkout_page/input_LastName'), data['input_LastName'])
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout/input_ZipCode'))
         
-        "Step 8: Click on input Address"
+        "Step 8: Enter input value in input ZipCode"
         
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_page/input_Address'))
+        WebUI.setText(findTestObject('AI-Generated/Page_checkout/input_ZipCode'), data['input_ZipCode'])
         
-        "Step 9: Hover over div object4"
+        "Step 9: Click on input City"
         
-        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_page/div_object4'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout/input_City'))
         
-        "Step 10: Enter input value in input Address"
+        "Step 10: Enter input value in input City"
         
-        WebUI.setText(findTestObject('AI-Generated/Page_checkout_page/input_Address'), data['input_Address'])
+        WebUI.setText(findTestObject('AI-Generated/Page_checkout/input_City'), data['input_City'])
         
-        "Step 11: Click on input ZipCode"
+        "Step 11: Click on input State"
         
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_page/input_ZipCode'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout/input_State'))
         
-        "Step 12: Hover over div object5"
+        "Step 12: Enter input value in input State"
         
-        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_page/div_object5'))
+        WebUI.setText(findTestObject('AI-Generated/Page_checkout/input_State'), data['input_State'])
         
-        "Step 13: Enter input value in input ZipCode"
+        "Step 13: Click on input Phone"
         
-        WebUI.setText(findTestObject('AI-Generated/Page_checkout_page/input_ZipCode'), data['input_ZipCode'])
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout/input_Phone'))
         
-        "Step 14: Click on input City"
+        "Step 14: Enter input value in input Phone"
         
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_page/input_City'))
+        WebUI.setText(findTestObject('AI-Generated/Page_checkout/input_Phone'), data['input_Phone'])
         
-        "Step 15: Hover over div object6"
+        "Step 15: Click on continueToPaymentButton -> Navigate to page 'checkout page#checkout/payment'"
         
-        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_page/div_object6'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout/continueToPaymentButton'))
         
-        "Step 16: Enter input value in input City"
+        "Step 16: Click on button CompleteOrder"
         
-        WebUI.setText(findTestObject('AI-Generated/Page_checkout_page/input_City'), data['input_City'])
-        
-        "Step 17: Click on input State"
-        
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_page/input_State'))
-        
-        "Step 18: Hover over div object7"
-        
-        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_page/div_object7'))
-        
-        "Step 19: Enter input value in input State"
-        
-        WebUI.setText(findTestObject('AI-Generated/Page_checkout_page/input_State'), data['input_State'])
-        
-        "Step 20: Click on input Phone"
-        
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_page/input_Phone'))
-        
-        "Step 21: Enter input value in input Phone"
-        
-        WebUI.setText(findTestObject('AI-Generated/Page_checkout_page/input_Phone'), data['input_Phone'])
-        
-        "Step 22: Click on button ContinueToPayment -> Navigate to page 'checkout page#checkout/payment'"
-        
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_page/button_ContinueToPayment'))
-        
-        "Step 23: Click on button CompleteOrder"
-        
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_page/button_CompleteOrder'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout/button_CompleteOrder'))
     }
     
     private static def execute_with_data_source(String datasource, int rowIndex) {

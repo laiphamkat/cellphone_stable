@@ -1,0 +1,17 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Hover over item object2",
+        "step 3: Browse brand categories and add item to cart",
+        "step 4: Click on button purchaseOptions (Buy)",
+        "step 5: Add item to cart and select storage color options",
+        "step 6: Click on link PlaceAnOrder -> Navigate to page 'cart page#cart'",
+        "step 7: Click on button removeItem (Remove)",
+        "step 8: Proceed to checkout while opting for marketing information",
+        "step 9: Complete all shipping information before proceeding to payment",
+        "step 10: Click on span CashOnDelivery",
+        "step 11: Click on input CashOnDelivery",
+        "step 12: Click on button CompleteOrder -> Navigate to page 'thank you page#thank-you/*'",
+        "step 13: Take full page screenshot as checkpoint"
+    ]
+}

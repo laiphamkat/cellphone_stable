@@ -1,0 +1,13 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on div WelcomeMessage",
+        "step 3: Hover over item object2",
+        "step 4: Click on link brandCategories (AppleCategory) -> Navigate to page 'category page#category/*'",
+        "step 5: Click on link newiPhoneModels (iPhone15PlusNew) -> Navigate to page 'product page#product/*'",
+        "step 6: Click on label colorStorageOptions (Storage256GB)",
+        "step 7: Click on label colorStorageOptions (ColorYellow)",
+        "step 8: Click on button purchaseOptions (Buy) -> Navigate to page ''",
+        "step 9: Take full page screenshot as checkpoint"
+    ]
+}

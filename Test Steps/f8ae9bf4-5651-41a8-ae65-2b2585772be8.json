@@ -1,0 +1,15 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on button purchaseOptions (iPhone15PlusBuy)",
+        "step 3: Click on button Close",
+        "step 4: Click on button purchaseOptions (iPhone15FineWovenCase)",
+        "step 5: Click on button Close",
+        "step 6: Click on button purchaseOptions (SaleMagSafeCharger)",
+        "step 7: Click on button purchaseOptions (AddToCart)",
+        "step 8: Click on link PlaceAnOrder -> Navigate to page 'cart page#cart'",
+        "step 9: Click on button proceed to checkout -> Navigate to page 'checkout info#checkout/info'",
+        "step 10: Click on link BackToCart -> Navigate to page 'cart page#cart'",
+        "step 11: Take full page screenshot as checkpoint"
+    ]
+}

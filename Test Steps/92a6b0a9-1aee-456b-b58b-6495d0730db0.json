@@ -1,0 +1,16 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Select material storage options and purchase multiple times",
+        "step 3: Click on button purchaseOptions (Buy)",
+        "step 4: Click on link Phone -> Navigate to page 'phone category#*/*'",
+        "step 5: Click on link Twitter",
+        "step 6: Click on link ContactNumber",
+        "step 7: Click on link About -> Navigate to page '/about'",
+        "step 8: Click on link Address -> Navigate to page 'checkout info#checkout/info'",
+        "step 9: Hover over div object",
+        "step 10: Click on input Email -> Navigate to page 'checkout page#checkout/shipping-address'",
+        "step 11: Click on continueToPaymentButton -> Navigate to page ''",
+        "step 12: Take full page screenshot as checkpoint"
+    ]
+}

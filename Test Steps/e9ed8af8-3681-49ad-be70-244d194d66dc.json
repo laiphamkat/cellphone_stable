@@ -1,0 +1,17 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link brandCategories (AppleCategory) -> Navigate to page 'category page#category/*'",
+        "step 3: Click on button newiPhonePromotion (HotNewiPhone15)",
+        "step 4: Click on label storageColorOptions (512GB)",
+        "step 5: Click on label storageColorOptions (Green)",
+        "step 6: Click on button purchaseOptions (Buy)",
+        "step 7: Click on span Link3 -> Navigate to page 'cart page#cart'",
+        "step 8: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'",
+        "step 9: Click on input Email",
+        "step 10: Enter input value in input Email",
+        "step 11: Click on button ContinueToShipping",
+        "step 12: Fill in shipping details and complete the order process",
+        "step 13: Take full page screenshot as checkpoint"
+    ]
+}

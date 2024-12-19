@@ -10,9 +10,9 @@ public class proceedToCheckoutAndInputEmail {
     
     private static def execute_functional_method(Map data) {
         
-        "Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'"
+        "Step 1: Click on button proceed to checkout -> Navigate to page 'checkout info#checkout/info'"
         
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_cart_page/button_ProceedToCheckout'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_cart/button_proceed_to_checkout'))
         
         "Step 2: Hover over div object"
         
@@ -29,18 +29,28 @@ public class proceedToCheckoutAndInputEmail {
         "Step 5: Click on button ContinueToShipping"
         
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_info/button_ContinueToShipping'))
+        
+        "Step 6: Enter input value in input Email"
+        
+        WebUI.setText(findTestObject('AI-Generated/Page_checkout_info/input_Email'), data['input_Email_1'])
+        
+        "Step 7: Click on button ContinueToShipping"
+        
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_info/button_ContinueToShipping'))
     }
     
     private static def execute_with_data_source(String datasource, int rowIndex) {
         TestData testData = findTestData(datasource)
         Map data = [:]
         data['input_Email'] = testData.getValue('input_Email', rowIndex)
+        data['input_Email_1'] = testData.getValue('input_Email_1', rowIndex)
         execute_functional_method(data)
     }
     
     private static def execute_without_data_source() {
         Map data = [:]
         data['input_Email'] = 'default_data'
+        data['input_Email_1'] = 'default_data'
         execute_functional_method(data)
     }
     
