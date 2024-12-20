@@ -1,0 +1,24 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+1,Navigate and Interact with E commerce Site Features,"Navigate through the home page, explore categories, add items to the cart, and proceed to place an order. Verify the home page at the end.","Step 1: Navigate to /
+Step 2: Click on link swiper-slider  next
+Step 3: Click on link horizontal-menu  element apple -> Navigate to page 'iphone cases category#*/*'
+Step 4: Click on html object
+Step 5: Hover over item object
+Step 6: Click on link horizontal-menu  element samsung -> Navigate to page 'category page#category/*'
+Step 7: Click on div WelcomeMessage
+Step 8: Click on div WelcomeMessage
+Step 9: Click on div WelcomeMessage2
+Step 10: Hover over link CartLink
+Step 11: Click on link cart header -> Navigate to page 'cart page#cart'
+Step 12: Click on link cart header
+Step 13: Click on link logo -> Navigate to page '/'
+Step 14: Click on button add to cart
+Step 15: Click on label colorAndStorageOptions (storageCapacity)
+Step 16: Click on label colorAndStorageOptions (colorOption)
+Step 17: Click on button buy
+Step 18: Click on link place order -> Navigate to page 'cart page#cart'
+Step 19: Click on spinbutton form control
+Step 20: Enter input value in spinbutton form control
+Step 21: Click on div ProductDetails -> Navigate to page ''
+Step 22: Take full page screenshot as checkpoint
+",High,NEW

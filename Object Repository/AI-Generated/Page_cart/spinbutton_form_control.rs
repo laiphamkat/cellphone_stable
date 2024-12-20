@@ -34,7 +34,7 @@
         <name>name</name>
         <type>Main</type>
         <value>qty[3721]</value>
-        <webElementGuid>1778fa05-73cf-423a-899e-304c25c174b5</webElementGuid>
+        <webElementGuid>52368cc8-f71c-47f7-96c8-19d10885fe26</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,6 +42,6 @@
         <name>type</name>
         <type>Main</type>
         <value>number</value>
-        <webElementGuid>1778fa05-73cf-423a-899e-304c25c174b5</webElementGuid>
+        <webElementGuid>52368cc8-f71c-47f7-96c8-19d10885fe26</webElementGuid>
     </webElementProperties>
 </WebElementEntity>
