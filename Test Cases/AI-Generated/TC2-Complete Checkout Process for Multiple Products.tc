@@ -132,6 +132,27 @@
         <masked>false</masked>
         <name>label_storageColorOption_internalText_1</name>
     </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>acd01762-6243-430b-baf0-a2ecd5d87b8e</id>
+        <masked>false</masked>
+        <name>link_cartCount_internalRoleLinkName</name>
+    </variable>
+    <variable>
+        <defaultValue>'By title'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>ae372fe9-03f0-4e55-b8ba-aecb32f8f5a3</id>
+        <masked>false</masked>
+        <name>link_sortOptions_internalRoleLinkName</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>bfe09fb8-cac2-4fe0-88d8-fe0a360cdddf</id>
+        <masked>false</masked>
+        <name>link_sortOptions_nthChild</name>
+    </variable>
     <variableLinks>
         <testDataLinkId>7890fa61-08bc-4edc-9911-3e45e0b4976e</testDataLinkId>
         <type>DATA_COLUMN</type>
@@ -227,5 +248,23 @@
         <type>DATA_COLUMN</type>
         <value>label_storageColorOption_internalText_1</value>
         <variableId>e9d046be-e53a-48ca-8345-80f8822aaa5a</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>7890fa61-08bc-4edc-9911-3e45e0b4976e</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_cartCount_internalRoleLinkName</value>
+        <variableId>acd01762-6243-430b-baf0-a2ecd5d87b8e</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>7890fa61-08bc-4edc-9911-3e45e0b4976e</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_sortOptions_internalRoleLinkName</value>
+        <variableId>ae372fe9-03f0-4e55-b8ba-aecb32f8f5a3</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>7890fa61-08bc-4edc-9911-3e45e0b4976e</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_sortOptions_nthChild</value>
+        <variableId>bfe09fb8-cac2-4fe0-88d8-fe0a360cdddf</variableId>
     </variableLinks>
 </TestCaseEntity>

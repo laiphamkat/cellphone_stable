@@ -12,7 +12,28 @@ Step 10: Click on button AddToCart
 Step 11: Click on label 512GB
 Step 12: Click on button Close -> Navigate to page ''
 Step 13: Take full page screenshot as checkpoint
-",High,NEW
+",High,STABLE
+3,Test Adding and Removing Items from Shopping Cart,"Navigate to the home page, select items with various storage options, add them to the cart, and then remove an item. Verify the home page after removal.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link Apple -> Navigate to page 'category page#category/*'
+Step 4: Click on label storageColorOptions (StorageOption1TB)
+Step 5: Click on label storageColorOptions (Color)
+Step 6: Click on button Buy
+Step 7: Click on button addToCart (AddToCart)
+Step 8: Click on label storageColorOptions (Storage256GB)
+Step 9: Click on label storageColorOptions (Green)
+Step 10: Click on button Buy
+Step 11: Click on button ProductAdded
+Step 12: Click on link sortOptions (ByPrice)
+Step 13: Click on button addToCart (AddToCart2)
+Step 14: Click on label storageColorOptions (Storage512GB)
+Step 15: Click on label storageColorOptions (ColorBlueTitanium)
+Step 16: Click on button Buy
+Step 17: Hover over link CartCount3
+Step 18: Click on link cartCount (CartCount3Dynamic) -> Navigate to page 'cart page#cart'
+Step 19: Click on button RemoveItem -> Navigate to page ''
+Step 20: Take full page screenshot as checkpoint
+",Medium,NEW
 2,Complete Checkout Process for Multiple Products,"Navigate to category, add products to cart, proceed to checkout, fill in shipping information, and complete the order.","Step 1: Navigate to category/*
 Step 2: Click on button addToCart (AddToCart)
 Step 3: Click on button Close
@@ -20,8 +41,8 @@ Step 4: Click on button addToCart (AddToCart2)
 Step 5: Click on label storageColorOption (512GB)
 Step 6: Click on label storageColorOption (Green)
 Step 7: Click on button Buy
-Step 8: Click on link SortByTitle
-Step 9: Click on link CartLink -> Navigate to page 'cart page#cart'
+Step 8: Click on link sortOptions (SortByTitle)
+Step 9: Click on link cartCount (CartCount1) -> Navigate to page 'cart page#cart'
 Step 10: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'
 Step 11: Hover over div object
 Step 12: Click on input Email
@@ -52,4 +73,4 @@ Step 36: Enter input value in input Phone2
 Step 37: Click on button ContinueToPayment -> Navigate to page 'checkout page#checkout/payment'
 Step 38: Click on button CompleteOrder -> Navigate to page 'thank you#thank-you/*'
 Step 39: Take full page screenshot as checkpoint
-",Trivial,NEW
+",Trivial,STABLE
