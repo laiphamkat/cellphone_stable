@@ -47,7 +47,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 4-Click on button Close.png')
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_category_page/link_iPhone15Plus'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250102/Page_category_page/link_iPhone15Plus'))
 
 WebUI.takeScreenshot(reportLocation + '/TC2/Step 5-Click on link iPhone15Plus - Navigate to page product pageproduct.png')
 

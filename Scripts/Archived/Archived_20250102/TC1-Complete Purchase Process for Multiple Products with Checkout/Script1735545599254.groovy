@@ -38,7 +38,7 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 3-Click on link Apple - Navigat
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_category_page/button_AddToCart'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250102/Page_category_page/button_AddToCart'))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 4-Click on button AddToCart.png')
 
@@ -46,8 +46,8 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 4-Click on button AddToCart.png
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category_page/label_colorStorageOption"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category_page/label_colorStorageOption', ['label_colorStorageOption_for': label_colorStorageOption_for, 'label_colorStorageOption_internalText': label_colorStorageOption_internalText]))
+// Bind values to the variables in the locators of "Archived/Archived_20250102/Dynamic Objects/Page_category_page/label_colorStorageOption"
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250102/Dynamic Objects/Page_category_page/label_colorStorageOption', ['label_colorStorageOption_for': label_colorStorageOption_for, 'label_colorStorageOption_internalText': label_colorStorageOption_internalText]))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 5-Click on label colorStorageOption 512GB.png')
 
@@ -55,8 +55,8 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 5-Click on label colorStorageOp
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category_page/label_colorStorageOption"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category_page/label_colorStorageOption', ['label_colorStorageOption_for': label_colorStorageOption_for_1, 'label_colorStorageOption_internalText': label_colorStorageOption_internalText_1]))
+// Bind values to the variables in the locators of "Archived/Archived_20250102/Dynamic Objects/Page_category_page/label_colorStorageOption"
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250102/Dynamic Objects/Page_category_page/label_colorStorageOption', ['label_colorStorageOption_for': label_colorStorageOption_for_1, 'label_colorStorageOption_internalText': label_colorStorageOption_internalText_1]))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 6-Click on label colorStorageOption Green.png')
 
@@ -64,7 +64,7 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 6-Click on label colorStorageOp
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_category_page/button_Buy'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250102/Page_category_page/button_Buy'))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 7-Click on button Buy.png')
 
@@ -72,7 +72,7 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 7-Click on button Buy.png')
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_category_page/link_iPhone15'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250102/Page_category_page/link_iPhone15'))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 8-Click on link iPhone15 - Navigate to page product pageproduct.png')
 
@@ -80,8 +80,8 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 8-Click on link iPhone15 - Navi
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product_page/label_colorStorageOption"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product_page/label_colorStorageOption', ['label_colorStorageOption_for': label_colorStorageOption_for_2, 'label_colorStorageOption_internalText': label_colorStorageOption_internalText_2]))
+// Bind values to the variables in the locators of "Archived/Archived_20250102/Dynamic Objects/Page_product_page/label_colorStorageOption"
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250102/Dynamic Objects/Page_product_page/label_colorStorageOption', ['label_colorStorageOption_for': label_colorStorageOption_for_2, 'label_colorStorageOption_internalText': label_colorStorageOption_internalText_2]))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 9-Click on label colorStorageOption 512GB.png')
 
@@ -89,8 +89,8 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 9-Click on label colorStorageOp
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product_page/label_colorStorageOption"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product_page/label_colorStorageOption', ['label_colorStorageOption_for': label_colorStorageOption_for_3, 'label_colorStorageOption_internalText': label_colorStorageOption_internalText_3]))
+// Bind values to the variables in the locators of "Archived/Archived_20250102/Dynamic Objects/Page_product_page/label_colorStorageOption"
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250102/Dynamic Objects/Page_product_page/label_colorStorageOption', ['label_colorStorageOption_for': label_colorStorageOption_for_3, 'label_colorStorageOption_internalText': label_colorStorageOption_internalText_3]))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 10-Click on label colorStorageOption Green.png')
 
@@ -98,7 +98,7 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 10-Click on label colorStorageO
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_product_page/button_Buy'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250102/Page_product_page/button_Buy'))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 11-Click on button Buy.png')
 
@@ -106,7 +106,7 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 11-Click on button Buy.png')
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_product_page/link_Cart'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250102/Page_product_page/link_Cart'))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 12-Click on link Cart - Navigate to page cart pagecart.png')
 

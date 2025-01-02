@@ -18,7 +18,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
         </iterationEntity>
-        <testDataId>Data Files/AI-Generated/TC1-Complete Purchase Process for Multiple Products with Checkout-test-data</testDataId>
+        <testDataId>Data Files/Archived/Archived_20250102/TC1-Complete Purchase Process for Multiple Products with Checkout-test-data</testDataId>
     </testDataLinks>
     <variable>
         <defaultValue>'add'</defaultValue>
