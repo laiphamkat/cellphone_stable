@@ -34,7 +34,7 @@
         <name>href</name>
         <type>Main</type>
         <value>/category/apple</value>
-        <webElementGuid>74d8a281-c588-4e3e-aa82-a30616688ee7</webElementGuid>
+        <webElementGuid>94b41e3b-edbf-437c-a8cc-a68fc78b714e</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,6 +42,6 @@
         <name>text</name>
         <type>Main</type>
         <value>Apple</value>
-        <webElementGuid>74d8a281-c588-4e3e-aa82-a30616688ee7</webElementGuid>
+        <webElementGuid>94b41e3b-edbf-437c-a8cc-a68fc78b714e</webElementGuid>
     </webElementProperties>
 </WebElementEntity>
