@@ -26,13 +26,14 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_Apple'))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 2-Click on link Apple - Navigate to page category pagecategory.png')
 
-"Step 3: Click on label 512GB"
+"Step 3: Click on label storageColorOption (512GB)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_category_page/label_512GB'))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category_page/label_storageColorOption"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category_page/label_storageColorOption', ['label_storageColorOption_for': label_storageColorOption_for, 'label_storageColorOption_internalText': label_storageColorOption_internalText]))
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 3-Click on label 512GB.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 3-Click on label storageColorOption 512GB.png')
 
 "Step 4: Click on button Increased"
 
@@ -108,7 +109,7 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 12-Click on button Close - Navi
 
 "Step 13: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Navigate and Add iPhone 15 Plus to Cart from Home Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Navigate to Product Category and Add iPhone to Cart_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

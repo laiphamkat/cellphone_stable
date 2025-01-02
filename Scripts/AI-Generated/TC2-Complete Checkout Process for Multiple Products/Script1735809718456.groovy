@@ -320,7 +320,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 38-Click on button CompleteOrde
 
 "Step 39: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Complete Purchase with Multiple Options and Checkout_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Complete Checkout Process for Multiple Products_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
