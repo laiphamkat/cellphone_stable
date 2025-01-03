@@ -5,14 +5,14 @@ Step 3: Click on label storageColorOptions (512GB)
 Step 4: Click on button Increased
 Step 5: Click on button Close
 Step 6: Click on link iPhone15Plus -> Navigate to page 'product#product/*'
-Step 7: Click on label Variant512GB
+Step 7: Click on label colorAndVariant (Variant512GB)
 Step 8: Click on button Decreased
 Step 9: Click on link ProductPhone -> Navigate to page 'phone category#*/*'
 Step 10: Click on button AddToCart
 Step 11: Click on label 512GB
 Step 12: Click on button Close -> Navigate to page ''
 Step 13: Take full page screenshot as checkpoint
-",High,NEW
+",High,STABLE
 2,Complete Checkout Process for Multiple Items,"Navigate through the category, add multiple items to the cart, fill in shipping details, and complete the order process.","Step 1: Navigate to category/*
 Step 2: Click on button addToCart (AddToCart)
 Step 3: Click on button Close
@@ -52,7 +52,53 @@ Step 36: Enter input value in input Phone2
 Step 37: Click on button ContinueToPayment -> Navigate to page 'checkout page#checkout/payment'
 Step 38: Click on button CompleteOrder -> Navigate to page 'thank you#thank-you/*'
 Step 39: Take full page screenshot as checkpoint
-",Medium,NEW
+",Medium,STABLE
+4,Complete Purchase Process for Multiple Products with Customization,"Navigate to the home page, select products, customize options, and add them to the cart. Proceed through the checkout process, entering shipping details, and complete the purchase.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link Apple -> Navigate to page 'category page#category/*'
+Step 4: Click on button addToCart (AddToCartUpdate)
+Step 5: Click on label storageColorAndCapacity (512GB)
+Step 6: Click on label storageColorAndCapacity (storageColorOptions)
+Step 7: Click on label storageColorAndCapacity (512GB2)
+Step 8: Click on label storageColorAndCapacity (BlueUpdate)
+Step 9: Click on button Buy
+Step 10: Click on link iPhone15Updated -> Navigate to page 'product#product/*'
+Step 11: Click on label colorAndVariant (GBUpdate)
+Step 12: Click on label colorAndVariant (Blue)
+Step 13: Click on button Buy
+Step 14: Click on link PlaceOrder
+Step 15: Proceed to checkout and enter email for shipping
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'
+	- Step 2: Hover over div object
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email2
+	- Step 5: Click on button ContinueToShipping
+Step 16: Hover over div object
+Step 17: Click on input FirstName
+Step 18: Hover over div object2
+Step 19: Enter input value in input FirstName
+Step 20: Click on input LastName
+Step 21: Hover over div object3
+Step 22: Enter input value in input LastName
+Step 23: Click on input ZipCode
+Step 24: Hover over div object4
+Step 25: Enter input value in input ZipCode2
+Step 26: Click on input Address
+Step 27: Hover over div object5
+Step 28: Enter input value in input Address2
+Step 29: Click on input City
+Step 30: Hover over div object6
+Step 31: Enter input value in input City2
+Step 32: Click on input ShippingState
+Step 33: Hover over div object7
+Step 34: Enter input value in input State
+Step 35: Click on input Phone
+Step 36: Enter input value in input Phone2
+Step 37: Click on button ContinueToFinalPayment
+Step 38: Hover over div object
+Step 39: Click on input FirstName2 -> Navigate to page ''
+Step 40: Take full page screenshot as checkpoint
+",Low,NEW
 3,Add and Remove Apple Products from Cart,"Browse Apple products, add multiple items to the cart, and remove an item before verifying the home page.","Step 1: Navigate to /
 Step 2: Hover over item object
 Step 3: Click on link Apple -> Navigate to page 'category page#category/*'
@@ -73,4 +119,4 @@ Step 17: Hover over link CartCount3
 Step 18: Click on link cartCount (CartCount3Dynamic) -> Navigate to page 'cart page#cart'
 Step 19: Click on button RemoveItem -> Navigate to page ''
 Step 20: Take full page screenshot as checkpoint
-",Trivial,NEW
+",Trivial,STABLE

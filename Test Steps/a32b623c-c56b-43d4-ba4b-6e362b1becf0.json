@@ -6,7 +6,7 @@
         "step 4: Click on button Increased",
         "step 5: Click on button Close",
         "step 6: Click on link iPhone15Plus -> Navigate to page 'product#product/*'",
-        "step 7: Click on label Variant512GB",
+        "step 7: Click on label colorAndVariant (Variant512GB)",
         "step 8: Click on button Decreased",
         "step 9: Click on link ProductPhone -> Navigate to page 'phone category#*/*'",
         "step 10: Click on button AddToCart",

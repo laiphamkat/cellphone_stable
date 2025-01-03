@@ -21,6 +21,20 @@
         <testDataId>Data Files/AI-Generated/TC1-Navigate to Apple Product and Add to Cart-test-data</testDataId>
     </testDataLinks>
     <variable>
+        <defaultValue>'\\31 52173-case-651'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>37905d2c-d309-4969-b4d3-2ef442aa560e</id>
+        <masked>false</masked>
+        <name>label_colorAndVariant_for</name>
+    </variable>
+    <variable>
+        <defaultValue>'512 GB'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>7e2f8392-3246-4ed3-8450-16e699c221de</id>
+        <masked>false</masked>
+        <name>label_colorAndVariant_internalText</name>
+    </variable>
+    <variable>
         <defaultValue>'\\31 52170-case-635'</defaultValue>
         <description>Dynamic locator variable</description>
         <id>8fe9c709-012c-47fe-9564-3e8dfc166b6a</id>
@@ -34,6 +48,18 @@
         <masked>false</masked>
         <name>label_storageColorOptions_internalText</name>
     </variable>
+    <variableLinks>
+        <testDataLinkId>d2041f42-fd49-4ac1-b27f-096655663daf</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>label_colorAndVariant_for</value>
+        <variableId>37905d2c-d309-4969-b4d3-2ef442aa560e</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>d2041f42-fd49-4ac1-b27f-096655663daf</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>label_colorAndVariant_internalText</value>
+        <variableId>7e2f8392-3246-4ed3-8450-16e699c221de</variableId>
+    </variableLinks>
     <variableLinks>
         <testDataLinkId>d2041f42-fd49-4ac1-b27f-096655663daf</testDataLinkId>
         <type>DATA_COLUMN</type>

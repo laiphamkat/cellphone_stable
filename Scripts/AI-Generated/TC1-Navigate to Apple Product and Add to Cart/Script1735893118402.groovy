@@ -59,13 +59,14 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_category_page/link_iPhone1
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 6-Click on link iPhone15Plus - Navigate to page productproduct.png')
 
-"Step 7: Click on label Variant512GB"
+"Step 7: Click on label colorAndVariant (Variant512GB)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/label_Variant512GB'))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/label_colorAndVariant"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/label_colorAndVariant', ['label_colorAndVariant_for': label_colorAndVariant_for, 'label_colorAndVariant_internalText': label_colorAndVariant_internalText]))
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 7-Click on label Variant512GB.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 7-Click on label colorAndVariant Variant512GB.png')
 
 "Step 8: Click on button Decreased"
 
