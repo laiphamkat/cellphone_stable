@@ -133,25 +133,25 @@
         <name>label_storageColorOption_internalText_1</name>
     </variable>
     <variable>
-        <defaultValue>'1'</defaultValue>
+        <defaultValue>'3'</defaultValue>
         <description>Dynamic locator variable</description>
         <id>acd01762-6243-430b-baf0-a2ecd5d87b8e</id>
         <masked>false</masked>
         <name>link_cartCount_internalRoleLinkName</name>
     </variable>
     <variable>
-        <defaultValue>'By title'</defaultValue>
+        <defaultValue>'By price'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>ae372fe9-03f0-4e55-b8ba-aecb32f8f5a3</id>
+        <id>fe61eae9-507c-4ba9-9c09-36b66e647711</id>
         <masked>false</masked>
-        <name>link_sortOptions_internalRoleLinkName</name>
+        <name>link_sortingOptions_internalRoleLinkName</name>
     </variable>
     <variable>
-        <defaultValue>'2'</defaultValue>
+        <defaultValue>'3'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>bfe09fb8-cac2-4fe0-88d8-fe0a360cdddf</id>
+        <id>214d6c37-b4b9-4b0a-b527-10292eb1a431</id>
         <masked>false</masked>
-        <name>link_sortOptions_nthChild</name>
+        <name>link_sortingOptions_nthChild</name>
     </variable>
     <variableLinks>
         <testDataLinkId>7890fa61-08bc-4edc-9911-3e45e0b4976e</testDataLinkId>
@@ -258,13 +258,13 @@
     <variableLinks>
         <testDataLinkId>7890fa61-08bc-4edc-9911-3e45e0b4976e</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>link_sortOptions_internalRoleLinkName</value>
-        <variableId>ae372fe9-03f0-4e55-b8ba-aecb32f8f5a3</variableId>
+        <value>link_sortingOptions_internalRoleLinkName</value>
+        <variableId>fe61eae9-507c-4ba9-9c09-36b66e647711</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>7890fa61-08bc-4edc-9911-3e45e0b4976e</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>link_sortOptions_nthChild</value>
-        <variableId>bfe09fb8-cac2-4fe0-88d8-fe0a360cdddf</variableId>
+        <value>link_sortingOptions_nthChild</value>
+        <variableId>214d6c37-b4b9-4b0a-b527-10292eb1a431</variableId>
     </variableLinks>
 </TestCaseEntity>

@@ -107,8 +107,8 @@ WebUI.takeScreenshot(reportLocation + '/TC3/Step 11-Click on button ProductAdded
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category_page/link_sortOptions"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category_page/link_sortOptions', ['link_sortOptions_nthChild': link_sortOptions_nthChild, 'link_sortOptions_internalRoleLinkName': link_sortOptions_internalRoleLinkName]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category_page/link_sortingOptions_1"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category_page/link_sortingOptions_1', ['link_sortOptions_nthChild': link_sortOptions_nthChild, 'link_sortOptions_internalRoleLinkName': link_sortOptions_internalRoleLinkName]))
 
 WebUI.takeScreenshot(reportLocation + '/TC3/Step 12-Click on link sortOptions ByPrice.png')
 
@@ -159,8 +159,8 @@ WebUI.takeScreenshot(reportLocation + '/TC3/Step 17-Hover over link CartCount3.p
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category_page/link_cartCount"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category_page/link_cartCount', ['link_cartCount_internalRoleLinkName': link_cartCount_internalRoleLinkName]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category_page/link_cartCount_1"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category_page/link_cartCount_1', ['link_cartCount_internalRoleLinkName': link_cartCount_internalRoleLinkName]))
 
 WebUI.takeScreenshot(reportLocation + '/TC3/Step 18-Click on link cartCount CartCount3Dynamic - Navigate to page cart pagecart.png')
 

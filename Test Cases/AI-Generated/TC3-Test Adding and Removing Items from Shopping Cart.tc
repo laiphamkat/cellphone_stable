@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment />
+    <comment></comment>
     <customField>
         <flow>
             <id>ebc4fb00-9dee-4680-82b3-88db0d82e700</id>
@@ -15,7 +16,7 @@
         <id>b7ee519c-9d36-4ca2-9fc5-70a55b58ad99</id>
         <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value />
+            <value></value>
         </iterationEntity>
         <testDataId>Data Files/AI-Generated/TC3-Test Adding and Removing Items from Shopping Cart-test-data</testDataId>
     </testDataLinks>
