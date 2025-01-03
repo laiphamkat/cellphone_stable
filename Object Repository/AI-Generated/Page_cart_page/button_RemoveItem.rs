@@ -34,6 +34,6 @@
         <name>text</name>
         <type>Main</type>
         <value>Remove</value>
-        <webElementGuid>cdcc2eee-f68e-45b1-90aa-06d549222022</webElementGuid>
+        <webElementGuid>cc52ec58-2b79-4238-8fcf-c37d25104312</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

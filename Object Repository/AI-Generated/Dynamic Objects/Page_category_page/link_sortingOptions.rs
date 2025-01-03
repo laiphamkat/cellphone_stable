@@ -15,7 +15,7 @@
         </entry>
         <entry>
             <key>BASIC</key>
-            <value>//*[equals(@href,'#') and equals(@text,'By price')]</value>
+            <value>//*[equals(@href,'#') and equals(@text,'By title')]</value>
         </entry>
     </selectorCollection>
     <selectorMethod>XPATH</selectorMethod>
@@ -34,14 +34,14 @@
         <name>href</name>
         <type>Main</type>
         <value>#</value>
-        <webElementGuid>5c57afbe-cb69-490f-9a80-3027bc931a9d</webElementGuid>
+        <webElementGuid>cc52ec58-2b79-4238-8fcf-c37d25104312</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
         <matchCondition>equals</matchCondition>
         <name>text</name>
         <type>Main</type>
-        <value>By price</value>
-        <webElementGuid>5c57afbe-cb69-490f-9a80-3027bc931a9d</webElementGuid>
+        <value>By title</value>
+        <webElementGuid>cc52ec58-2b79-4238-8fcf-c37d25104312</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

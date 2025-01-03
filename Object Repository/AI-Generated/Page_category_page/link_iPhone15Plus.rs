@@ -34,7 +34,7 @@
         <name>href</name>
         <type>Main</type>
         <value>/product/apple-iphone-15-plus</value>
-        <webElementGuid>8db31f05-577f-46cb-b15b-edc90710a70c</webElementGuid>
+        <webElementGuid>cc52ec58-2b79-4238-8fcf-c37d25104312</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,6 +42,6 @@
         <name>text</name>
         <type>Main</type>
         <value>iPhone 15 Plus</value>
-        <webElementGuid>8db31f05-577f-46cb-b15b-edc90710a70c</webElementGuid>
+        <webElementGuid>cc52ec58-2b79-4238-8fcf-c37d25104312</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

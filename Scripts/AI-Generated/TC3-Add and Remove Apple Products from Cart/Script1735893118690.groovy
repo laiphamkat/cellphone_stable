@@ -60,14 +60,14 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_category_page/button_Buy')
 
 WebUI.takeScreenshot(reportLocation + '/TC3/Step 6-Click on button Buy.png')
 
-"Step 7: Click on button addToCart (AddToCart)"
+"Step 7: Click on button addToCart (AddToCart3)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
 // Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category_page/button_addToCart"
 WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category_page/button_addToCart', ['button_addToCart_class': button_addToCart_class, 'button_addToCart_internalHasText': button_addToCart_internalHasText]))
 
-WebUI.takeScreenshot(reportLocation + '/TC3/Step 7-Click on button addToCart AddToCart.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 7-Click on button addToCart AddToCart3.png')
 
 "Step 8: Click on label storageColorOptions (Storage256GB)"
 
@@ -78,14 +78,14 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category_p
 
 WebUI.takeScreenshot(reportLocation + '/TC3/Step 8-Click on label storageColorOptions Storage256GB.png')
 
-"Step 9: Click on label storageColorOptions (Green)"
+"Step 9: Click on label storageColorOptions (Green2)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
 // Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category_page/label_storageColorOptions"
 WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category_page/label_storageColorOptions', ['label_storageColorOptions_for': label_storageColorOptions_for_3, 'label_storageColorOptions_internalText': label_storageColorOptions_internalText_3]))
 
-WebUI.takeScreenshot(reportLocation + '/TC3/Step 9-Click on label storageColorOptions Green.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 9-Click on label storageColorOptions Green2.png')
 
 "Step 10: Click on button Buy"
 
@@ -103,23 +103,23 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_category_page/button_Produ
 
 WebUI.takeScreenshot(reportLocation + '/TC3/Step 11-Click on button ProductAdded.png')
 
-"Step 12: Click on link sortOptions (ByPrice)"
+"Step 12: Click on link sortingOptions (ByPrice)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category_page/link_sortingOptions_1"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category_page/link_sortingOptions_1', ['link_sortOptions_nthChild': link_sortOptions_nthChild, 'link_sortOptions_internalRoleLinkName': link_sortOptions_internalRoleLinkName]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category_page/link_sortingOptions"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category_page/link_sortingOptions', ['link_sortingOptions_nthChild': link_sortingOptions_nthChild, 'link_sortingOptions_internalRoleLinkName': link_sortingOptions_internalRoleLinkName]))
 
-WebUI.takeScreenshot(reportLocation + '/TC3/Step 12-Click on link sortOptions ByPrice.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 12-Click on link sortingOptions ByPrice.png')
 
-"Step 13: Click on button addToCart (AddToCart2)"
+"Step 13: Click on button addToCart (AddToCart)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
 // Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category_page/button_addToCart"
 WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category_page/button_addToCart', ['button_addToCart_class': button_addToCart_class_1, 'button_addToCart_internalHasText': button_addToCart_internalHasText_1]))
 
-WebUI.takeScreenshot(reportLocation + '/TC3/Step 13-Click on button addToCart AddToCart2.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 13-Click on button addToCart AddToCart.png')
 
 "Step 14: Click on label storageColorOptions (Storage512GB)"
 
@@ -159,8 +159,8 @@ WebUI.takeScreenshot(reportLocation + '/TC3/Step 17-Hover over link CartCount3.p
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category_page/link_cartCount_1"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category_page/link_cartCount_1', ['link_cartCount_internalRoleLinkName': link_cartCount_internalRoleLinkName]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category_page/link_cartCount"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category_page/link_cartCount', ['link_cartCount_internalRoleLinkName': link_cartCount_internalRoleLinkName]))
 
 WebUI.takeScreenshot(reportLocation + '/TC3/Step 18-Click on link cartCount CartCount3Dynamic - Navigate to page cart pagecart.png')
 
@@ -174,7 +174,7 @@ WebUI.takeScreenshot(reportLocation + '/TC3/Step 19-Click on button RemoveItem -
 
 "Step 20: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Test Adding and Removing Items from Shopping Cart_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Add and Remove Apple Products from Cart_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
