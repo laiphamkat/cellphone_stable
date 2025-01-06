@@ -100,8 +100,8 @@ WebUI.takeScreenshot(reportLocation + '/TC4/Step 10-Click on link iPhone15Update
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/label_colorAndVariant"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/label_colorAndVariant', ['label_colorAndVariant_for': label_colorAndVariant_for, 'label_colorAndVariant_internalText': label_colorAndVariant_internalText]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/label_colorAndVariant_1"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/label_colorAndVariant_1', ['label_colorAndVariant_for': label_colorAndVariant_for, 'label_colorAndVariant_internalText': label_colorAndVariant_internalText]))
 
 WebUI.takeScreenshot(reportLocation + '/TC4/Step 11-Click on label colorAndVariant GBUpdate.png')
 
@@ -109,8 +109,8 @@ WebUI.takeScreenshot(reportLocation + '/TC4/Step 11-Click on label colorAndVaria
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/label_colorAndVariant"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/label_colorAndVariant', ['label_colorAndVariant_for': label_colorAndVariant_for_1, 'label_colorAndVariant_internalText': label_colorAndVariant_internalText_1]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/label_colorAndVariant_1"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/label_colorAndVariant_1', ['label_colorAndVariant_for': label_colorAndVariant_for_1, 'label_colorAndVariant_internalText': label_colorAndVariant_internalText_1]))
 
 WebUI.takeScreenshot(reportLocation + '/TC4/Step 12-Click on label colorAndVariant Blue.png')
 

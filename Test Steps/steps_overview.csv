@@ -52,7 +52,7 @@ Step 36: Enter input value in input Phone2
 Step 37: Click on button ContinueToPayment -> Navigate to page 'checkout page#checkout/payment'
 Step 38: Click on button CompleteOrder -> Navigate to page 'thank you#thank-you/*'
 Step 39: Take full page screenshot as checkpoint
-",Medium,STABLE
+",High,STABLE
 4,Complete Purchase Process for Multiple Products with Customization,"Navigate to the home page, select products, customize options, and add them to the cart. Proceed through the checkout process, entering shipping details, and complete the purchase.","Step 1: Navigate to /
 Step 2: Hover over item object
 Step 3: Click on link Apple -> Navigate to page 'category page#category/*'
@@ -98,6 +98,40 @@ Step 37: Click on button ContinueToFinalPayment
 Step 38: Hover over div object
 Step 39: Click on input FirstName2 -> Navigate to page ''
 Step 40: Take full page screenshot as checkpoint
+",Medium,STABLE
+5,Complete Purchase Process from Home to Thank You Page,"Navigate from the home page to the product category. Add an item to the cart, fill in shipping details, and proceed to payment. Complete the order and verify the thank you page.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link Apple -> Navigate to page 'category page#category/*'
+Step 4: Click on button addToCart (AddToCart)
+Step 5: Click on label storageColorAndCapacityOptions (storageColorAndCapacity)
+Step 6: Click on label storageColorAndCapacityOptions (storageColorOptions)
+Step 7: Click on button Buy
+Step 8: Click on link cartNavigation (GoToCart) -> Navigate to page 'cart page#cart'
+Step 9: Click on button ProceedToCheckout -> Navigate to page 'checkout page#checkout/shipping-address'
+Step 10: Hover over div object
+Step 11: Click on input FirstName
+Step 12: Hover over div object2
+Step 13: Enter input value in input FirstName2
+Step 14: Click on input LastName
+Step 15: Hover over div object3
+Step 16: Enter input value in input LastName2
+Step 17: Click on input Address
+Step 18: Hover over div object4
+Step 19: Enter input value in input Address2
+Step 20: Click on input ZipCode
+Step 21: Hover over div object5
+Step 22: Enter input value in input ZipCode2
+Step 23: Click on input City
+Step 24: Hover over div object6
+Step 25: Enter input value in input City2
+Step 26: Click on input State
+Step 27: Hover over div object7
+Step 28: Enter input value in input State2
+Step 29: Click on input Phone
+Step 30: Enter input value in input Phone2
+Step 31: Click on button ContinueToPayment -> Navigate to page 'checkout page#checkout/payment'
+Step 32: Click on button CompleteFinalOrder -> Navigate to page 'thank you#thank-you/*'
+Step 33: Take full page screenshot as checkpoint
 ",Low,NEW
 3,Add and Remove Apple Products from Cart,"Browse Apple products, add multiple items to the cart, and remove an item before verifying the home page.","Step 1: Navigate to /
 Step 2: Hover over item object

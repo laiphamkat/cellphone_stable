@@ -63,8 +63,8 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 6-Click on link iPhone15Plus - 
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/label_colorAndVariant"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/label_colorAndVariant', ['label_colorAndVariant_for': label_colorAndVariant_for, 'label_colorAndVariant_internalText': label_colorAndVariant_internalText]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/label_colorAndVariant_1"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/label_colorAndVariant_1', ['label_colorAndVariant_for': label_colorAndVariant_for, 'label_colorAndVariant_internalText': label_colorAndVariant_internalText]))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 7-Click on label colorAndVariant Variant512GB.png')
 
